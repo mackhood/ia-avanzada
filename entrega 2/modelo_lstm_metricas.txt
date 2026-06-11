@@ -1,0 +1,47 @@
+Modelo LSTM - metricas del prototipo
+Dataset: tracks_charts_classification_dataset.csv
+Filas: 2019, columnas: 71
+Rango de fechas: 2021-05-22 a 2021-11-06
+Train: 2021-05-22 a 2021-09-11 - 1506 filas
+Validation: 2021-09-18 a 2021-10-09 - 261 filas
+Test: 2021-10-16 a 2021-11-06 - 252 filas
+Mejor umbral por F1 en validacion: 0.82
+
+Validation
+Threshold: 0.5000
+Accuracy: 0.9655
+Precision: 0.8714
+Recall: 1.0000
+F1: 0.9313
+ROC AUC: 1.0000
+Confusion matrix:
+[[191   9]
+ [  0  61]]
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.98       200
+           1       0.87      1.00      0.93        61
+
+    accuracy                           0.97       261
+   macro avg       0.94      0.98      0.95       261
+weighted avg       0.97      0.97      0.97       261
+
+Test
+Threshold: 0.8200
+Accuracy: 0.9881
+Precision: 0.9455
+Recall: 1.0000
+F1: 0.9720
+ROC AUC: 0.9969
+Confusion matrix:
+[[197   3]
+ [  0  52]]
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99       200
+           1       0.95      1.00      0.97        52
+
+    accuracy                           0.99       252
+   macro avg       0.97      0.99      0.98       252
+weighted avg       0.99      0.99      0.99       252
+

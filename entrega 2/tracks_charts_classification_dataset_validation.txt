@@ -1,0 +1,77 @@
+Validation report for tracks_charts_classification_dataset.csv
+Generated: 2026-05-24 12:22:58
+
+Input rows:
+  tracks_charts_hit_cleaned.csv: 1000
+  tracks_charts_not_hit_cleaned.csv: 1450
+
+Output rows:
+  total before temporal-window filtering: 2450
+  hit=1 before temporal-window filtering: 1000
+  hit=0 before temporal-window filtering: 1450
+  total model-ready rows with 4-week context: 2019
+  hit=1 model-ready rows: 769
+  hit=0 model-ready rows: 1250
+  unique week/song/artist keys: 2019
+  unique song/artist keys: 1329
+  weeks available before temporal-window filtering: 29
+  weeks available after temporal-window filtering: 25
+  temporal context window: previous 4 weeks
+
+Columns:
+  date, clean_name, clean_artists, song, artists, release_date, release_year, hit, duration_ms, explicit, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, time_signature, context_week_t_minus_1, ctx_danceability_t_minus_1, ctx_energy_t_minus_1, ctx_speechiness_t_minus_1, ctx_acousticness_t_minus_1, ctx_instrumentalness_t_minus_1, ctx_liveness_t_minus_1, ctx_valence_t_minus_1, ctx_tempo_t_minus_1, ctx_loudness_t_minus_1, context_week_t_minus_2, ctx_danceability_t_minus_2, ctx_energy_t_minus_2, ctx_speechiness_t_minus_2, ctx_acousticness_t_minus_2, ctx_instrumentalness_t_minus_2, ctx_liveness_t_minus_2, ctx_valence_t_minus_2, ctx_tempo_t_minus_2, ctx_loudness_t_minus_2, context_week_t_minus_3, ctx_danceability_t_minus_3, ctx_energy_t_minus_3, ctx_speechiness_t_minus_3, ctx_acousticness_t_minus_3, ctx_instrumentalness_t_minus_3, ctx_liveness_t_minus_3, ctx_valence_t_minus_3, ctx_tempo_t_minus_3, ctx_loudness_t_minus_3, context_week_t_minus_4, ctx_danceability_t_minus_4, ctx_energy_t_minus_4, ctx_speechiness_t_minus_4, ctx_acousticness_t_minus_4, ctx_instrumentalness_t_minus_4, ctx_liveness_t_minus_4, ctx_valence_t_minus_4, ctx_tempo_t_minus_4, ctx_loudness_t_minus_4, delta_danceability_vs_prev4_hit_avg, delta_energy_vs_prev4_hit_avg, delta_speechiness_vs_prev4_hit_avg, delta_acousticness_vs_prev4_hit_avg, delta_instrumentalness_vs_prev4_hit_avg, delta_liveness_vs_prev4_hit_avg, delta_valence_vs_prev4_hit_avg, delta_tempo_vs_prev4_hit_avg, delta_loudness_vs_prev4_hit_avg
+
+Checks:
+  hit weekly rows preserved for week-level modelling: OK
+  no duplicate week/song/artist keys in final dataset: OK
+  no overlap between hit and not-hit rows for the same week/song/artist key: OK
+  chart rank excluded to avoid target leakage: OK
+  date preserved as temporal/context metadata; do not use it directly as a numeric model feature without encoding/split care
+  temporal context is computed from previous weeks only: OK
+  temporal context uses hit rows only to represent recent chart preferences: OK
+  first 4 weeks dropped because they lack complete previous-week context: OK
+  not-hit unit features normalized from 0-1000 scale when needed: OK
+  loudness values below -60 normalized from cents-like scale when needed: OK
+
+Rows by week:
+  2021-05-22: hit=1 64, hit=0 50, total=114
+  2021-05-29: hit=1 56, hit=0 50, total=106
+  2021-06-05: hit=1 53, hit=0 50, total=103
+  2021-06-12: hit=1 54, hit=0 50, total=104
+  2021-06-19: hit=1 45, hit=0 50, total=95
+  2021-06-26: hit=1 40, hit=0 50, total=90
+  2021-07-03: hit=1 45, hit=0 50, total=95
+  2021-07-10: hit=1 37, hit=0 50, total=87
+  2021-07-17: hit=1 39, hit=0 50, total=89
+  2021-07-24: hit=1 36, hit=0 50, total=86
+  2021-07-31: hit=1 32, hit=0 50, total=82
+  2021-08-07: hit=1 32, hit=0 50, total=82
+  2021-08-14: hit=1 28, hit=0 50, total=78
+  2021-08-21: hit=1 26, hit=0 50, total=76
+  2021-08-28: hit=1 26, hit=0 50, total=76
+  2021-09-04: hit=1 25, hit=0 50, total=75
+  2021-09-11: hit=1 18, hit=0 50, total=68
+  2021-09-18: hit=1 15, hit=0 50, total=65
+  2021-09-25: hit=1 16, hit=0 50, total=66
+  2021-10-02: hit=1 15, hit=0 50, total=65
+  2021-10-09: hit=1 15, hit=0 50, total=65
+  2021-10-16: hit=1 15, hit=0 50, total=65
+  2021-10-23: hit=1 14, hit=0 50, total=64
+  2021-10-30: hit=1 12, hit=0 50, total=62
+  2021-11-06: hit=1 11, hit=0 50, total=61
+
+Numeric ranges:
+  duration_ms: min=62040 max=1817448 avg=216708.009410599
+  explicit: min=0 max=1 avg=0.137691926696384
+  danceability: min=0 max=0.949 avg=0.596021297672116
+  energy: min=0.0000203 max=0.997 avg=0.592890549925706
+  key: min=0 max=11 avg=5.25408618127786
+  loudness: min=-32.778 max=1.202 avg=-8.38145616641901
+  mode: min=0 max=1 avg=0.686478454680535
+  speechiness: min=0 max=0.999 avg=0.271770084200099
+  acousticness: min=0.00000499 max=0.996 avg=0.427456564938088
+  instrumentalness: min=0 max=1 avg=0.107241030297177
+  liveness: min=0.03 max=0.998 avg=0.295808469539376
+  valence: min=0 max=0.996 avg=0.554416745913819
+  tempo: min=0 max=209.989 avg=119.163618623081
+  time_signature: min=0 max=5 avg=3.86874690440812
