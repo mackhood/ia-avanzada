@@ -1,0 +1,20 @@
+Validation report for tracks_charts_grouped_dataset.csv (Entrega 3, version final)
+
+Este dataset conserva la granularidad semanal (una fila por cancion y semana),
+a diferencia de la version deduplicada (tracks_charts_dedup_dataset.csv). La
+prevencion de fuga de informacion se resuelve en el split (por grupo de cancion),
+no eliminando filas.
+
+Filas totales: 2019
+hit=1: 769 filas, 79 canciones distintas (9.73 filas/cancion en promedio)
+hit=0: 1250 filas, 1250 canciones distintas (1.00 filas/cancion en promedio)
+Proporcion de hits: 38.09%
+Rango de fechas: 2021-05-22 a 2021-11-06
+Columnas: 68
+
+Checks:
+  sin duplicados de date/song/artist en datos crudos combinados: OK
+  sin canciones presentes simultaneamente como hit y no-hit: OK
+  variable rank excluida (evita fuga de informacion): OK
+  contexto temporal calculado sobre la ocupacion real del ranking: OK
+  el split train/val/test se realiza por grupo de cancion (ver train_all_architectures.py)

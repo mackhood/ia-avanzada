@@ -1,0 +1,334 @@
+date,song,artists,hit,predicted_probability,predicted_hit,correct
+2021-06-19,name pali edo zodanos,tripes,0,1.7727245e-07,0,True
+2021-08-07,llévame contigo,no te va gustar,0,4.109921e-05,0,True
+2021-10-02,prema chandrama,rajesh krishnan,0,7.410521e-08,0,True
+2021-07-03,truce,twenty one pilots,0,1.023063e-06,0,True
+2021-09-25,i will follow you,ricky nelson,0,1.5023625e-09,0,True
+2021-06-26,soi kunniaksi luojan - sing now to the creator,the candomino choir,0,1.5946672e-08,0,True
+2021-07-03,kata pujangga,rhoma irama,0,4.0331433e-06,0,True
+2021-10-02,amor prohibido,baby rasta & gringo,0,2.2951648e-08,0,True
+2021-09-18,quiéreme siempre,los cinco latinos,0,3.023694e-12,0,True
+2021-08-28,mels me vubec rad,ewa farna,0,2.2105089e-05,0,True
+2021-06-12,soñadora del carnaval,los fronterizos,0,1.4456755e-10,0,True
+2021-06-19,wave,joão gilberto,0,0.0001650705,0,True
+2021-10-02,dom som försvann,kent,0,4.933295e-10,0,True
+2021-06-12,fria vägar ut,lars winnerbäck,0,0.0037305097,0,True
+2021-09-18,raindrops,ellegarden,0,3.1087765e-12,0,True
+2021-05-29,Wasted On You,"[""Morgan Wallen""]",1,0.98083156,1,True
+2021-08-07,supermassive black hole,stereo avenue,0,0.020628618,0,True
+2021-09-04,i have a right,sonata arctica,0,2.722862e-09,0,True
+2021-08-14,vete vete,maicol benitez,0,3.2309574e-05,0,True
+2021-10-23,mercy in you,depeche mode,0,1.1669403e-14,0,True
+2021-10-16,pobrecito de mí,los acosta,0,2.8016198e-10,0,True
+2021-06-12,quando eu morri,marcelo nova,0,0.00042374918,0,True
+2021-06-26,puppets,depeche mode,0,1.4042433e-07,0,True
+2021-08-21,petit escargot,comptines tv,0,4.078728e-06,0,True
+2021-08-21,sex-appeal,georg danzer,0,5.6332552e-05,0,True
+2021-07-10,sæmi rokk,hrekkjusvín,0,0.002569371,0,True
+2021-06-05,man saaf tera hai ya nahin,parashuram,0,8.9074234e-13,0,True
+2021-10-23,chapter 2.13 - król maciuś pierwszy,janusz korczak,0,1.222969e-17,0,True
+2021-07-24,lullaby of broadway,doris day,0,7.624233e-08,0,True
+2021-07-03,stepping razor,peter tosh,0,2.3518042e-11,0,True
+2021-05-22,Richer,"[""Rod Wave"",""Polo G""]",1,0.9889598,1,True
+2021-09-18,procuro olvidarte,alejandro fernández,0,1.0722927e-06,0,True
+2021-07-31,el loco antonio,jaime roos,0,8.676511e-08,0,True
+2021-06-19,alaska country,shocking blue,0,8.946428e-10,0,True
+2021-08-21,coyita cantor,canciones para no dormir la siesta,0,7.4212667e-06,0,True
+2021-09-18,avisa à maria que amanhã tem baile,moreira da silva,0,4.07055e-15,0,True
+2021-05-22,Minimum Wage,"[""Blake Shelton""]",1,0.9977684,1,True
+2021-06-26,tootsee roll lp version,69 boyz,0,0.0027832505,0,True
+2021-07-24,swing guitars,django reinhardt,0,1.8512845e-10,0,True
+2021-10-23,just you just me,helen merrill,0,2.0929003e-10,0,True
+2021-08-21,yama nadaet,om kalthom,0,6.987651e-13,0,True
+2021-10-09,sürgün aşkımız,hazal,0,0.0003185412,0,True
+2021-10-16,kažu,dubioza kolektiv,0,1.6497595e-11,0,True
+2021-07-24,on our way,nobuo uematsu,0,8.901362e-07,0,True
+2021-10-23,del árbol viejo,santiago chalar,0,2.4834839e-11,0,True
+2021-08-14,harley davidson,eddie meduza,0,0.00034261306,0,True
+2021-07-10,slaves & bulldozers,soundgarden,0,3.294349e-06,0,True
+2021-06-26,tumne di awaz,shabbir kumar,0,1.7643968e-05,0,True
+2021-05-22,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.99968535,1,True
+2021-07-31,sweat loaf,butthole surfers,0,3.400466e-09,0,True
+2021-06-26,como la flor - remastered,selena,0,3.9662145e-06,0,True
+2021-08-14,salto mortale,jef and the pennies from heaven,0,3.621579e-06,0,True
+2021-05-22,señor amor,dulce,0,0.027591141,0,True
+2021-07-31,i can love you like that,all-4-one,0,2.9923e-06,0,True
+2021-10-23,kveðja útlagans,vilhjálmur vilhjálmsson,0,6.7968864e-10,0,True
+2021-08-28,znas li sta o njoj,mile kitic,0,1.10325914e-07,0,True
+2021-10-02,megamix,kc & the sunshine band,0,5.793165e-13,0,True
+2021-09-11,beautiful mary,jimmie davis,0,4.3455104e-11,0,True
+2021-06-05,hatırlamıyorum,sansar salvo,0,0.17487916,0,True
+2021-07-17,bajo tus alas,marcos yaroide,0,0.00041917848,0,True
+2021-07-17,suite populares españolas: asturiana,isaac stern,0,2.1444159e-11,0,True
+2021-07-31,desde el oeste,almafuerte,0,0.033909775,0,True
+2021-07-24,moody speaks,dizzy gillespie,0,3.163279e-08,0,True
+2021-08-21,cat prance,toini & the tomcats,0,5.4164224e-07,0,True
+2021-08-14,christmas in my heart,percy faith & his orchestra & chorus,0,3.246024e-08,0,True
+2021-10-09,o fogo nunca dorme,alessandro vilas boas,0,3.6589225e-07,0,True
+2021-08-21,for you,triumvirat,0,6.819083e-08,0,True
+2021-06-12,a cockeyed optimist,richard rodgers,0,7.567058e-10,0,True
+2021-11-06,jade visions,bill evans,0,2.400724e-12,0,True
+2021-07-10,zum zum zum,siw malmkvist,0,1.3502481e-05,0,True
+2021-11-06,onde você está? - ao vivo,bruno & marrone,0,5.7346487e-08,0,True
+2021-09-11,missing you,jim reeves,0,1.0884261e-06,0,True
+2021-06-12,spökstad,kent,0,8.64344e-07,0,True
+2021-05-22,Tombstone,"[""Rod Wave""]",1,0.99642915,1,True
+2021-09-04,so deep within you,the moody blues,0,6.5336025e-08,0,True
+2021-07-17,desorden,izal,0,0.00031693632,0,True
+2021-10-30,evangelina,jonathan edwards,0,1.5083547e-06,0,True
+2021-08-14,voggevise,thorbjørn egner,0,1.4433517e-08,0,True
+2021-09-11,180 degree,ben,0,2.1265498e-06,0,True
+2021-10-09,wenn du einsam bist,böhse onkelz,0,7.763264e-10,0,True
+2021-06-12,söknuður,friðrik karlsson,0,1.0158622e-11,0,True
+2021-08-28,johnny comes down to hilo,sam eskin,0,8.055091e-10,0,True
+2021-05-22,viagem na palma da mão,jorge palma,0,8.512176e-06,0,True
+2021-07-24,sepanjang jalan kenangan,tetty kadi,0,0.021963952,0,True
+2021-08-14,sólo los tontos,los caminantes,0,4.2633317e-05,0,True
+2021-05-22,woo hah!! got you all in check,busta rhymes,0,0.35736465,0,True
+2021-07-31,dub you haffe dub,black uhuru,0,1.4417723e-08,0,True
+2021-06-19,confidências,jorge de altinho,0,1.65718e-05,0,True
+2021-05-22,hoochie coochie man,the jeff healey band,0,5.5446577e-07,0,True
+2021-09-18,tu mirada,los caminantes,0,4.7183948e-07,0,True
+2021-10-30,dove sei?,dirotta su cuba,0,0.0018718233,0,True
+2021-07-24,wave babies,honeymoon suite,0,6.7555948e-09,0,True
+2021-11-06,ocean drive,lighthouse family,0,5.875397e-06,0,True
+2021-10-30,la rubia y la morena,los fatales,0,3.5895792e-10,0,True
+2021-10-16,Sand In My Boots,"[""Morgan Wallen""]",1,0.019985886,0,False
+2021-09-04,võidusõit,black velvet,0,3.362343e-09,0,True
+2021-07-10,salamat sa alaala,cenon lagman,0,0.0005093208,0,True
+2021-10-09,highways,jim sullivan,0,4.8526747e-09,0,True
+2021-10-02,conscious of my conscience,womack & womack,0,2.1189777e-13,0,True
+2021-07-03,les pâques a new york,blaise cendrars,0,6.239292e-25,0,True
+2021-05-22,se me esta yendo tu cariño,h2o,0,0.0005500356,0,True
+2021-05-22,gillar din vibe,syster sol,0,2.7201562e-05,0,True
+2021-09-04,solo una noche,wisin & yandel,0,4.1369873e-11,0,True
+2021-10-09,in the park - score version,bruce broughton,0,1.9596442e-13,0,True
+2021-10-23,dumm & glücklich,raf 3.0,0,1.770469e-09,0,True
+2021-10-23,the soul of a black man,maceo,0,7.059916e-12,0,True
+2021-10-30,minha prece,milionário & josé rico,0,1.4313275e-08,0,True
+2021-05-29,wie ein alpha,kollegah,0,0.15650418,0,True
+2021-05-22,i should care,mel tormé,0,7.867277e-07,0,True
+2021-05-29,relincho,santiago chalar,0,3.269227e-06,0,True
+2021-10-16,one night,fats domino,0,3.4397607e-10,0,True
+2021-10-09,visto che mi vuoi lasciare,rino gaetano,0,5.824198e-09,0,True
+2021-07-10,papa was a poor man,jack jersey,0,2.065797e-06,0,True
+2021-06-12,bed bug blues,dave van ronk,0,9.150589e-10,0,True
+2021-05-22,Goosebumps,"[""Travis Scott"",""HVME""]",1,0.99705917,1,True
+2021-06-12,dragon ball rap,porta,0,0.097243845,0,True
+2021-10-30,nein,nane,0,0.00045816,0,True
+2021-07-17,alcoholic,common kings,0,0.31057313,0,True
+2021-07-10,sala 101,dealema,0,0.21108173,0,True
+2021-07-17,aja baja alfons - pt. 2,alfons åberg,0,5.163049e-11,0,True
+2021-10-16,telefone,walter wanderley,0,7.94517e-13,0,True
+2021-07-10,parte de lo que me debes,los planetas,0,1.7583287e-07,0,True
+2021-10-16,missing each other,cagnet,0,6.746274e-07,0,True
+2021-07-24,maybe tomorrow,mink deville,0,2.472113e-07,0,True
+2021-10-23,pupu tupuna,risto,0,2.4370402e-07,0,True
+2021-06-12,dar e receber,antónio variações,0,2.5523923e-06,0,True
+2021-08-28,sta ipa ola - live,miltos pashalidis,0,1.7751347e-06,0,True
+2021-08-21,spao ta rologia,triantafillos,0,1.8807696e-05,0,True
+2021-10-02,anytime,margaret whiting,0,1.508862e-08,0,True
+2021-08-07,back on the road again,reo speedwagon,0,1.6070262e-06,0,True
+2021-10-09,romance,el combo de las estrellas,0,1.1220339e-07,0,True
+2021-08-07,Memory I Don't Mess With,"[""Lee Brice""]",1,0.9731003,1,True
+2021-05-22,Kiss Me More,"[""Doja Cat"",""SZA""]",1,0.999319,1,True
+2021-05-29,beech bhanwar mein,suraiya,0,5.9618825e-09,0,True
+2021-11-06,me gusta la gente simple,facundo cabral,0,0.0002520235,0,True
+2021-05-22,Heartbreak Anniversary,"[""Giveon""]",1,0.9856301,1,True
+2021-07-24,ciudad baigón,indio solari y los fundamentalistas del aire acondicionado,0,3.29224e-05,0,True
+2021-07-10,marcel z malého mesta,peter nagy,0,3.758081e-10,0,True
+2021-09-11,hoşgeldin aramıza,müjde tuğsuz,0,2.5361363e-10,0,True
+2021-10-30,tropical depression,john g. mclane,0,0.00010867201,0,True
+2021-09-25,in your eyes,george benson,0,9.109384e-07,0,True
+2021-06-26,booguie del burrito - remastered,feliciano brunelli y su orquesta,0,3.680189e-07,0,True
+2021-10-16,dziesma par pazaudēto laiku,mirdza zivere,0,3.8698778e-13,0,True
+2021-11-06,klara klara,þrjú á palli,0,1.3100969e-06,0,True
+2021-08-07,kalan kalır,ahmet kaya,0,3.714688e-10,0,True
+2021-10-09,maestra,adrian valdez,0,6.98872e-07,0,True
+2021-10-09,from the dark past,mayhem,0,6.916342e-16,0,True
+2021-07-24,kleptoman,povel ramel,0,1.0452563e-11,0,True
+2021-06-26,ogrodu serce,daab,0,5.9064693e-12,0,True
+2021-10-16,camarera de mi amor,antonio machín,0,3.372422e-08,0,True
+2021-09-18,mah lindy lou,burl ives,0,1.9647906e-09,0,True
+2021-08-21,nix is fix,rainhard fendrich,0,0.00022855548,0,True
+2021-08-07,desvanecer - en vivo,andrés cepeda,0,5.576029e-07,0,True
+2021-06-19,all of you,sonny clark,0,1.6988942e-08,0,True
+2021-07-17,in the year 2000,brett van donsel,0,3.6078723e-07,0,True
+2021-10-16,masal,sertab erener,0,4.4462404e-06,0,True
+2021-05-22,Heat Waves,"[""Glass Animals""]",1,0.99562746,1,True
+2021-10-30,kasalanan ko ba?,toni gonzaga,0,4.0602777e-06,0,True
+2021-05-22,elämän ohjat,martti servo & napander,0,0.15944348,0,True
+2021-10-30,asleep in the light,keith green,0,6.2413114e-06,0,True
+2021-10-02,o timvorihos - live,miltos pashalidis,0,6.707834e-08,0,True
+2021-09-04,the glory of love,jimmy durante,0,1.5000575e-09,0,True
+2021-11-06,overture,arashi,0,8.3783626e-11,0,True
+2021-08-28,i robot,the alan parsons project,0,5.221576e-12,0,True
+2021-06-19,back door,stray kids,0,0.0022966242,0,True
+2021-08-14,pissing in a river,patti smith,0,9.308643e-08,0,True
+2021-05-22,territoire hostile,sans pression,0,0.0032182273,0,True
+2021-05-22,showbizz suite - 2006 remastered version,marc moulin,0,7.953454e-08,0,True
+2021-11-06,tired of missing you,isac elliot,0,3.5050205e-06,0,True
+2021-09-25,en ängel i mitt hus,schytts,0,4.693296e-05,0,True
+2021-10-23,raba-raba,khaled,0,1.6217169e-09,0,True
+2021-06-05,poquito mas,infected mushroom,0,1.5008976e-07,0,True
+2021-10-30,kald djevel,dutty dior,0,0.07972961,0,True
+2021-08-14,the girl who had everything,carola,0,1.4097492e-06,0,True
+2021-06-12,no te iras,sexappeal,0,6.627729e-11,0,True
+2021-06-19,bling-bling,adrien antoine,0,0.43854535,0,True
+2021-10-16,rosa engeitada,bert kaempfert,0,1.986527e-08,0,True
+2021-10-16,dream away - remastered 2004,george harrison,0,2.47266e-07,0,True
+2021-09-11,sometimes i wonder,the impressions,0,1.5634805e-08,0,True
+2021-07-03,amad nobahar,farid farjad,0,1.8933184e-10,0,True
+2021-07-31,tu mal humor,tennessee,0,2.5471198e-07,0,True
+2021-08-21,sonia,sonny clark,0,2.3415736e-10,0,True
+2021-06-12,que se me acabe la vida,josé alfredo jimenez,0,6.2872814e-09,0,True
+2021-11-06,what i am,edie brickell & new bohemians,0,2.6950087e-12,0,True
+2021-08-14,once you get it,b.t. express,0,2.8869125e-09,0,True
+2021-08-14,dark times,falcata,0,1.9732215e-07,0,True
+2021-08-07,tha ertho na se ksipniso,markos vamvakaris,0,4.181731e-11,0,True
+2021-06-05,peter pan,xuxa,0,4.855325e-07,0,True
+2021-06-12,aunque no esté de moda,silvio rodríguez,0,9.159473e-06,0,True
+2021-09-18,victory day,tom cochrane & red rider,0,3.847836e-12,0,True
+2021-07-24,how long has this been going on - 2015 remastered version,mel tormé,0,1.0962516e-10,0,True
+2021-07-10,taivas aukeaa,kaija koo,0,6.714307e-05,0,True
+2021-09-25,i like that,sistar,0,1.9951574e-16,0,True
+2021-05-22,Lady,"[""Brett Young""]",1,0.9977289,1,True
+2021-09-11,téged nem,péterfy bori & love band,0,1.6444203e-05,0,True
+2021-05-22,big wheel,mental as anything,0,2.572928e-07,0,True
+2021-07-31,miss lonely eyes,1986 omega tribe,0,5.068528e-07,0,True
+2021-08-14,voy a prometerme,la cumana,0,8.557677e-09,0,True
+2021-06-26,brązowe oczy,milano,0,1.12636734e-07,0,True
+2021-10-23,lagarterana,raquel meller,0,7.186634e-20,0,True
+2021-08-28,the pestilence,kreator,0,4.4842793e-08,0,True
+2021-09-18,los infieles,aventura,0,3.977662e-07,0,True
+2021-10-30,te voy a dejar,lolita,0,1.6152835e-09,0,True
+2021-09-11,czarne zastępy,kat,0,3.4940835e-13,0,True
+2021-09-04,go on girl,ne-yo,0,1.2649527e-12,0,True
+2021-10-23,negeri di awan,katon bagaskara,0,1.6250457e-05,0,True
+2021-07-31,live without it,killing heidi,0,9.693305e-06,0,True
+2021-10-02,true love pt. #2,x,0,4.6245408e-09,0,True
+2021-09-04,bambaram bam bam,tito puente & his orchestra,0,8.170364e-15,0,True
+2021-08-07,la quiero a morir,sergio vargas,0,6.037408e-09,0,True
+2021-07-31,back in the usa,mc5,0,1.6044969e-05,0,True
+2021-10-09,koparma gülleri,ferdi tayfur,0,4.774701e-12,0,True
+2021-08-21,ángeles fuimos,adrian barba,0,0.12809077,0,True
+2021-06-26,me sena kselogiastika,stratos pagioumtzis,0,8.169803e-15,0,True
+2021-05-22,Down To One,"[""Luke Bryan""]",1,0.99925005,1,True
+2021-10-16,colores,viernes verde,0,1.9939764e-06,0,True
+2021-07-24,terbiyesizim,oguzhan ugur,0,3.5199385e-08,0,True
+2021-10-09,holiday - 2007 remastered version,happy mondays,0,3.0477054e-06,0,True
+2021-09-04,manhattan skyline,david shire,0,1.1147311e-09,0,True
+2021-10-30,rayando el sol,la rondalla de tijuana,0,4.6781343e-09,0,True
+2021-07-17,smoke gets in your eyes,dinah washington,0,1.4296545e-06,0,True
+2021-06-19,hav utan hamnar,ulf lundell,0,5.0419636e-08,0,True
+2021-08-28,fait divers - remasterisé en 2015,téléphone,0,1.7091223e-08,0,True
+2021-06-26,et pourtant,charles aznavour,0,1.8824253e-11,0,True
+2021-10-16,minsan lang kitang iibigin,regine velasquez,0,0.00012316043,0,True
+2021-06-05,saulėsužtemimas,ba.,0,0.00583097,0,True
+2021-06-05,the dying cowboy,alan lomax,0,7.75312e-12,0,True
+2021-09-18,yaram derinden,sura i̇skenderli,0,4.348675e-05,0,True
+2021-11-06,héroe,mariah carey,0,0.0032531712,0,True
+2021-05-22,here comes the flood,peter gabriel,0,8.750784e-06,0,True
+2021-07-03,ja sina,ines,0,1.2577967e-05,0,True
+2021-06-19,par rozēm,jumprava,0,0.000110330744,0,True
+2021-06-26,hele,nerez,0,1.1556908e-13,0,True
+2021-09-18,gundah,hujan,0,9.612047e-08,0,True
+2021-08-28,why do you keep me waiting,bread,0,1.07786216e-08,0,True
+2021-10-30,ice man,memphis minnie,0,1.2755018e-15,0,True
+2021-07-31,brickfield nights,the boys,0,0.0008513253,0,True
+2021-06-12,ek bhool se kya hota hai,e. g. padgaonkar,0,6.2587276e-11,0,True
+2021-10-23,up in smoke,cheech & chong,0,4.165045e-05,0,True
+2021-05-22,We're Good,"[""Dua Lipa""]",1,0.999796,1,True
+2021-06-19,02 i fäders spår,ultima thule,0,3.838964e-05,0,True
+2021-11-06,song of the islands,bing crosby,0,8.867253e-12,0,True
+2021-06-19,je sto vicino a te - remastered 2008,pino daniele,0,1.2805865e-05,0,True
+2021-05-22,Hell Of A View,"[""Eric Church""]",1,0.9990675,1,True
+2021-10-30,afdeling a,danni,0,0.00062672526,0,True
+2021-05-22,massage situation,flying lotus,0,0.00044222668,0,True
+2021-09-18,sulat,moonstar88,0,3.5283781e-10,0,True
+2021-10-30,lili marleen.,marlene dietrich,0,7.0175425e-09,0,True
+2021-05-29,gur nanak jin suneya pekheya,bhai gopal singh ragi,0,2.0638247e-09,0,True
+2021-06-26,por mi timidez,antony santos,0,0.001100375,0,True
+2021-05-22,jil jil rani,jikki,0,5.782352e-11,0,True
+2021-10-16,garnet moon,hitomi shimatani,0,1.8502079e-10,0,True
+2021-05-22,What You Know Bout Love,"[""Pop Smoke""]",1,0.7529783,0,False
+2021-11-06,the pearls - 1995 remastered,jelly roll morton & his red hot peppers,0,3.4088731e-18,0,True
+2021-07-03,o my soul,big star,0,2.9864146e-13,0,True
+2021-09-11,she wandered through the garden fence,procol harum,0,9.617297e-11,0,True
+2021-06-26,someday,louis armstrong,0,2.0634721e-07,0,True
+2021-05-22,Blinding Lights,"[""The Weeknd""]",1,0.9997553,1,True
+2021-07-24,nic zamieszkuja demony,wilki,0,2.4067307e-11,0,True
+2021-10-23,dalamnya kasihmu bapa - live,true worshippers,0,5.814499e-07,0,True
+2021-11-06,se não acordar amanhã,piruka,0,8.333021e-06,0,True
+2021-09-04,le grand chêne,georges brassens,0,3.9115666e-10,0,True
+2021-06-12,ayer te vi,raly barrionuevo,0,0.40130717,0,True
+2021-08-28,bis seattle,fynn kliemann,0,5.969401e-10,0,True
+2021-08-14,somos caminantes,el comunero de los andes,0,7.907465e-13,0,True
+2021-05-29,te beso,amén,0,0.09722323,0,True
+2021-09-18,hot stuff,memphis minnie,0,3.409343e-17,0,True
+2021-08-14,the big head,coleman hawkins,0,3.098064e-11,0,True
+2021-09-11,terra degli uomini,jovanotti,0,0.0001781476,0,True
+2021-07-31,du bist nicht allein,james last,0,1.5611049e-07,0,True
+2021-10-30,a lonely way to be,lonnie liston smith,0,1.0324054e-05,0,True
+2021-10-30,keep it to yourself,queen ifrica,0,8.065565e-06,0,True
+2021-07-24,lijte kiše,zorica markovic,0,1.348542e-09,0,True
+2021-08-07,quiero estar solo,jeros,0,0.00033390755,0,True
+2021-06-19,the homecoming,friðrik karlsson,0,8.995393e-15,0,True
+2021-06-05,liv och död,maskinen,0,0.00015154803,0,True
+2021-10-16,untukmu ibu,exists,0,6.934987e-05,0,True
+2021-09-18,aunque me duela el alma,joan sebastian,0,1.0211694e-07,0,True
+2021-10-30,o xote das meninas,alceu valença,0,3.6682575e-08,0,True
+2021-11-06,raketak,tezkej pokondr,0,4.225574e-10,0,True
+2021-05-22,Hard For The Next,"[""Moneybagg Yo"",""Future""]",1,0.9984539,1,True
+2021-08-07,long kiss goodnight - 2014 remaster,the notorious b.i.g.,0,2.0077612e-06,0,True
+2021-06-12,jeg er ligeglad,bølle-bob og de andre,0,2.1455376e-06,0,True
+2021-10-02,a lo lejos - remasterizado,ignacio corsini,0,1.0422292e-17,0,True
+2021-07-17,adresi biliyorsun,nalan,0,3.448907e-09,0,True
+2021-10-09,o baby,siouxsie and the banshees,0,3.771774e-11,0,True
+2021-07-03,what is there to say,dizzy gillespie,0,3.1003687e-08,0,True
+2021-07-03,tonight,the shadows,0,8.575727e-05,0,True
+2021-10-02,baking powder blues,lucille bogan,0,1.08328036e-16,0,True
+2021-09-25,el reloj,josé josé,0,2.6984899e-09,0,True
+2021-07-24,spre mare,inna,0,0.0029306128,0,True
+2021-09-18,dass es dir leid tut - remastered 2002,pur,0,3.596215e-05,0,True
+2021-05-22,Rapstar,"[""Polo G""]",1,0.9959027,1,True
+2021-09-04,tre sjömansflickor,gunnar hahns orkester,0,9.5238575e-14,0,True
+2021-06-19,only one love is blessed,thurston harris,0,4.6471542e-11,0,True
+2021-05-22,puta,ena pá 2000,0,0.008807235,0,True
+2021-09-04,kenikmatan tersendiri,utha likumahuwa,0,4.8068415e-14,0,True
+2021-08-14,mi amante es una puta,jay katana,0,0.00069783255,0,True
+2021-06-12,un amigo un hermano,los peores de chile,0,0.005279231,0,True
+2021-10-09,ud i natten,vagn og vagabonderne,0,2.2161878e-10,0,True
+2021-10-16,nada se compara contigo,alvaro torres,0,3.6589747e-05,0,True
+2021-10-09,hallelujah,red garland quintet,0,3.2519926e-15,0,True
+2021-08-14,and the singer sings his song,neil diamond,0,6.0697025e-09,0,True
+2021-09-18,pobre diablo,julio iglesias,0,6.2158584e-13,0,True
+2021-10-23,tanto amor,willie gonzalez,0,1.9137795e-08,0,True
+2021-08-28,welcome to my paradise,steven & coconuttreez,0,2.1122614e-05,0,True
+2021-10-23,misterioso manantial,alameda,0,2.3006922e-07,0,True
+2021-10-02,capítulo 11.2 - el que susurraba en la oscuridad,h.p. lovecraft,0,1.1705497e-17,0,True
+2021-11-06,letter to mommy and daddy,barbara lynn,0,3.340768e-09,0,True
+2021-09-04,leningrad,topi sorsakoski & agents,0,7.788556e-09,0,True
+2021-10-09,may your presence go with us,don moen,0,6.431426e-07,0,True
+2021-10-30,ami chole gele,satinath mukherjee,0,4.1364247e-12,0,True
+2021-05-29,yeh hawayen salaam kahti hain,amirbai karnataki,0,1.6462564e-09,0,True
+2021-06-05,whiskey sunsets - live,moon taxi,0,5.0042354e-07,0,True
+2021-11-06,hembra,libido,0,2.4905785e-06,0,True
+2021-08-21,denne gang,michael teschl,0,2.3271241e-05,0,True
+2021-07-10,no-talent joe,gwen verdon,0,3.4097352e-12,0,True
+2021-08-28,o mundo é um moinho - live,cazuza,0,9.1043285e-06,0,True
+2021-08-14,morituri te salutant,karel kryl,0,1.4352032e-09,0,True
+2021-07-10,go on home british soldiers,shan-nos,0,5.4841606e-05,0,True
+2021-08-21,catfish blues,canned heat,0,7.240925e-09,0,True
+2021-05-22,Peaches,"[""Justin Bieber"",""Daniel Caesar"",""Giveon""]",1,0.99792594,1,True
+2021-10-16,?,law years,0,2.5606772e-05,0,True
+2021-06-05,dudas,los cadiz,0,3.9566486e-10,0,True
+2021-05-22,la manifestation,les cowboys fringants,0,0.011093358,0,True
+2021-06-12,the part where i cry,willie nelson,0,3.0185117e-07,0,True
+2021-08-14,wenhamo,thomas mapfumo,0,3.0081978e-07,0,True
+2021-10-16,steam forest live 1987,andreas vollenweider,0,1.3323934e-07,0,True
+2021-07-31,fado boémio e vadio,piedade fernandes,0,2.5424172e-06,0,True
+2021-09-18,pour faire une chanson,dorothée,0,2.4172133e-09,0,True
+2021-08-07,minha paz,gloria,0,3.9051138e-05,0,True
+2021-07-24,est-ce par hasard?,dave,0,1.19938415e-08,0,True
+2021-06-05,aman tertip can tertip,ersen ve dadaşlar,0,1.8052951e-13,0,True

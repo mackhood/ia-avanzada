@@ -1,0 +1,44 @@
+Modelo CONV1D - metricas (Entrega 3, dataset deduplicado)
+Dataset: tracks_charts_dedup_dataset.csv
+Filas totales: 1329 (hit=79, no-hit=1250)
+Train: 796 filas (47 hit)
+Validation: 200 filas (12 hit)
+Test: 333 filas (20 hit)
+Mejor umbral por F1 en validacion: 0.89
+
+Validation
+Threshold: 0.5000
+Accuracy: 0.9200
+Precision: 0.4091
+Recall: 0.7500
+F1: 0.5294
+ROC AUC: 0.9047
+PR AUC: 0.7871
+Confusion matrix: [[175, 13], [3, 9]]
+              precision    recall  f1-score   support
+
+           0       0.98      0.93      0.96       188
+           1       0.41      0.75      0.53        12
+
+    accuracy                           0.92       200
+   macro avg       0.70      0.84      0.74       200
+weighted avg       0.95      0.92      0.93       200
+
+Test
+Threshold: 0.8900
+Accuracy: 0.9790
+Precision: 0.8095
+Recall: 0.8500
+F1: 0.8293
+ROC AUC: 0.9724
+PR AUC: 0.9296
+Confusion matrix: [[309, 4], [3, 17]]
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       313
+           1       0.81      0.85      0.83        20
+
+    accuracy                           0.98       333
+   macro avg       0.90      0.92      0.91       333
+weighted avg       0.98      0.98      0.98       333
+

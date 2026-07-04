@@ -1,0 +1,197 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1783191420.000277   21816 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1783191421.936926   21816 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1783191423.185487   21816 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+Dataset shape: (1329, 68)
+hit
+0    1250
+1      79
+Name: count, dtype: int64
+Date range: 2021-05-22 to 2021-11-06
+Train: (796, 68) hits: 47
+Val: (200, 68) hits: 12
+Test: (333, 68) hits: 20
+
+======================================================================
+Arquitectura: LSTM
+======================================================================
+Model: "hit_prediction_lstm"
++--------------------------------------------------------------------------+
+| Layer (type)        | Output Shape      |    Param # | Connected to      |
+|---------------------+-------------------+------------+-------------------|
+| temporal_context    | (None, 4, 9)      |          0 | -                 |
+| (InputLayer)        |                   |            |                   |
+|---------------------+-------------------+------------+-------------------|
+| song_features       | (None, 40)        |          0 | -                 |
+| (InputLayer)        |                   |            |                   |
+|---------------------+-------------------+------------+-------------------|
+| lstm_context (LSTM) | (None, 32)        |      5,376 | temporal_context… |
+|---------------------+-------------------+------------+-------------------|
+| dense (Dense)       | (None, 32)        |      1,312 | song_features[0]… |
+|---------------------+-------------------+------------+-------------------|
+| dropout (Dropout)   | (None, 32)        |          0 | lstm_context[0][… |
+|---------------------+-------------------+------------+-------------------|
+| dropout_1 (Dropout) | (None, 32)        |          0 | dense[0][0]       |
+|---------------------+-------------------+------------+-------------------|
+| concatenate         | (None, 64)        |          0 | dropout[0][0],    |
+| (Concatenate)       |                   |            | dropout_1[0][0]   |
+|---------------------+-------------------+------------+-------------------|
+| dense_1 (Dense)     | (None, 32)        |      2,080 | concatenate[0][0] |
+|---------------------+-------------------+------------+-------------------|
+| dropout_2 (Dropout) | (None, 32)        |          0 | dense_1[0][0]     |
+|---------------------+-------------------+------------+-------------------|
+| hit_probability     | (None, 1)         |         33 | dropout_2[0][0]   |
+| (Dense)             |                   |            |                   |
++--------------------------------------------------------------------------+
+ Total params: 8,801 (34.38 KB)
+ Trainable params: 8,801 (34.38 KB)
+ Non-trainable params: 0 (0.00 B)
+
+Validation (n=200, positivos=12)
+Threshold: 0.5
+Accuracy: 0.97
+Precision: 0.75
+Recall: 0.75
+F1: 0.75
+ROC AUC: 0.9916
+PR AUC: 0.9086
+Confusion matrix: [[185, 3], [3, 9]]
+Best validation threshold: 0.85
+
+Test (n=333, positivos=20)
+Threshold: 0.8500000000000002
+Accuracy: 0.994
+Precision: 1.0
+Recall: 0.9
+F1: 0.9474
+ROC AUC: 0.9968
+PR AUC: 0.9702
+Confusion matrix: [[313, 0], [2, 18]]
+
+======================================================================
+Arquitectura: GRU
+======================================================================
+Model: "hit_prediction_gru"
++--------------------------------------------------------------------------+
+| Layer (type)        | Output Shape      |    Param # | Connected to      |
+|---------------------+-------------------+------------+-------------------|
+| temporal_context    | (None, 4, 9)      |          0 | -                 |
+| (InputLayer)        |                   |            |                   |
+|---------------------+-------------------+------------+-------------------|
+| song_features       | (None, 40)        |          0 | -                 |
+| (InputLayer)        |                   |            |                   |
+|---------------------+-------------------+------------+-------------------|
+| gru_context (GRU)   | (None, 32)        |      4,128 | temporal_context… |
+|---------------------+-------------------+------------+-------------------|
+| dense_2 (Dense)     | (None, 32)        |      1,312 | song_features[0]… |
+|---------------------+-------------------+------------+-------------------|
+| dropout_3 (Dropout) | (None, 32)        |          0 | gru_context[0][0] |
+|---------------------+-------------------+------------+-------------------|
+| dropout_4 (Dropout) | (None, 32)        |          0 | dense_2[0][0]     |
+|---------------------+-------------------+------------+-------------------|
+| concatenate_1       | (None, 64)        |          0 | dropout_3[0][0],  |
+| (Concatenate)       |                   |            | dropout_4[0][0]   |
+|---------------------+-------------------+------------+-------------------|
+| dense_3 (Dense)     | (None, 32)        |      2,080 | concatenate_1[0]… |
+|---------------------+-------------------+------------+-------------------|
+| dropout_5 (Dropout) | (None, 32)        |          0 | dense_3[0][0]     |
+|---------------------+-------------------+------------+-------------------|
+| hit_probability     | (None, 1)         |         33 | dropout_5[0][0]   |
+| (Dense)             |                   |            |                   |
++--------------------------------------------------------------------------+
+ Total params: 7,553 (29.50 KB)
+ Trainable params: 7,553 (29.50 KB)
+ Non-trainable params: 0 (0.00 B)
+
+Validation (n=200, positivos=12)
+Threshold: 0.5
+Accuracy: 0.97
+Precision: 0.75
+Recall: 0.75
+F1: 0.75
+ROC AUC: 0.9911
+PR AUC: 0.8897
+Confusion matrix: [[185, 3], [3, 9]]
+Best validation threshold: 0.83
+
+Test (n=333, positivos=20)
+Threshold: 0.8300000000000002
+Accuracy: 0.994
+Precision: 1.0
+Recall: 0.9
+F1: 0.9474
+ROC AUC: 0.9974
+PR AUC: 0.9778
+Confusion matrix: [[313, 0], [2, 18]]
+
+======================================================================
+Arquitectura: CONV1D
+======================================================================
+Model: "hit_prediction_conv1d"
++--------------------------------------------------------------------------+
+| Layer (type)        | Output Shape      |    Param # | Connected to      |
+|---------------------+-------------------+------------+-------------------|
+| temporal_context    | (None, 4, 9)      |          0 | -                 |
+| (InputLayer)        |                   |            |                   |
+|---------------------+-------------------+------------+-------------------|
+| conv1d_context      | (None, 4, 32)     |        608 | temporal_context… |
+| (Conv1D)            |                   |            |                   |
+|---------------------+-------------------+------------+-------------------|
+| conv1d_context_2    | (None, 4, 32)     |      2,080 | conv1d_context[0… |
+| (Conv1D)            |                   |            |                   |
+|---------------------+-------------------+------------+-------------------|
+| song_features       | (None, 40)        |          0 | -                 |
+| (InputLayer)        |                   |            |                   |
+|---------------------+-------------------+------------+-------------------|
+| global_max_pool_co… | (None, 32)        |          0 | conv1d_context_2… |
+| (GlobalMaxPooling1… |                   |            |                   |
+|---------------------+-------------------+------------+-------------------|
+| dense_4 (Dense)     | (None, 32)        |      1,312 | song_features[0]… |
+|---------------------+-------------------+------------+-------------------|
+| dropout_6 (Dropout) | (None, 32)        |          0 | global_max_pool_… |
+|---------------------+-------------------+------------+-------------------|
+| dropout_7 (Dropout) | (None, 32)        |          0 | dense_4[0][0]     |
+|---------------------+-------------------+------------+-------------------|
+| concatenate_2       | (None, 64)        |          0 | dropout_6[0][0],  |
+| (Concatenate)       |                   |            | dropout_7[0][0]   |
+|---------------------+-------------------+------------+-------------------|
+| dense_5 (Dense)     | (None, 32)        |      2,080 | concatenate_2[0]… |
+|---------------------+-------------------+------------+-------------------|
+| dropout_8 (Dropout) | (None, 32)        |          0 | dense_5[0][0]     |
+|---------------------+-------------------+------------+-------------------|
+| hit_probability     | (None, 1)         |         33 | dropout_8[0][0]   |
+| (Dense)             |                   |            |                   |
++--------------------------------------------------------------------------+
+ Total params: 6,113 (23.88 KB)
+ Trainable params: 6,113 (23.88 KB)
+ Non-trainable params: 0 (0.00 B)
+
+Validation (n=200, positivos=12)
+Threshold: 0.5
+Accuracy: 0.92
+Precision: 0.4091
+Recall: 0.75
+F1: 0.5294
+ROC AUC: 0.9047
+PR AUC: 0.7871
+Confusion matrix: [[175, 13], [3, 9]]
+Best validation threshold: 0.89
+
+Test (n=333, positivos=20)
+Threshold: 0.8900000000000002
+Accuracy: 0.979
+Precision: 0.8095
+Recall: 0.85
+F1: 0.8293
+ROC AUC: 0.9724
+PR AUC: 0.9296
+Confusion matrix: [[309, 4], [3, 17]]
+
+Comparacion final:
+arquitectura  umbral  accuracy  precision  recall       f1  roc_auc   pr_auc
+        LSTM    0.85  0.993994   1.000000    0.90 0.947368 0.996805 0.970209
+         GRU    0.83  0.993994   1.000000    0.90 0.947368 0.997444 0.977778
+      CONV1D    0.89  0.978979   0.809524    0.85 0.829268 0.972364 0.929594

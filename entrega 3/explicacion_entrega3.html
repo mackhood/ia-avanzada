@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Entrega 3 - Evolucion del Sistema Inteligente</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --text: #1f2933;
+      --muted: #5b6675;
+      --line: #d9dee7;
+      --blue: #2563eb;
+      --green: #0f8b6f;
+      --amber: #b7791f;
+      --red: #b42318;
+      --ink: #111827;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+    }
+
+    header {
+      background: #101828;
+      color: white;
+      padding: 34px 28px 26px;
+      border-bottom: 5px solid var(--blue);
+    }
+
+    .wrap {
+      max-width: 1160px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 34px;
+      line-height: 1.15;
+      font-weight: 760;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      margin: 12px 0 0;
+      color: #d6dce8;
+      max-width: 860px;
+      font-size: 16px;
+    }
+
+    nav {
+      background: #ffffff;
+      border-bottom: 1px solid var(--line);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav .wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 10px 28px;
+    }
+
+    nav a {
+      color: #243041;
+      text-decoration: none;
+      border: 1px solid var(--line);
+      padding: 7px 10px;
+      border-radius: 6px;
+      font-size: 13px;
+      background: #fafbfc;
+    }
+
+    main {
+      padding: 26px 28px 46px;
+    }
+
+    section {
+      margin: 0 auto 22px;
+      max-width: 1160px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 22px;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      color: var(--ink);
+      font-size: 24px;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 18px 0 8px;
+      font-size: 17px;
+      color: var(--ink);
+    }
+
+    p { margin: 8px 0; }
+
+    code {
+      background: #eef2f7;
+      border: 1px solid #dbe3ee;
+      padding: 1px 5px;
+      border-radius: 4px;
+      font-family: Consolas, Monaco, monospace;
+      font-size: 0.95em;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .grid4 {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .two {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .item {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      background: #fbfcfe;
+    }
+
+    .item strong {
+      display: block;
+      color: var(--ink);
+      margin-bottom: 4px;
+    }
+
+    .metric {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      border-left: 5px solid var(--blue);
+      background: #f8fbff;
+    }
+
+    .metric .value {
+      font-size: 26px;
+      font-weight: 760;
+      color: var(--ink);
+    }
+
+    .metric .label {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+      align-items: stretch;
+    }
+
+    .step {
+      border: 1px solid var(--line);
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 12px;
+      min-height: 118px;
+      position: relative;
+    }
+
+    .step .num {
+      display: inline-flex;
+      width: 25px;
+      height: 25px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: var(--blue);
+      color: white;
+      font-weight: 700;
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+
+    .step strong {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--ink);
+    }
+
+    .note {
+      border-left: 5px solid var(--amber);
+      background: #fffaf0;
+      padding: 13px 14px;
+      border-radius: 6px;
+      margin-top: 12px;
+    }
+
+    .risk {
+      border-left-color: var(--red);
+      background: #fff7f6;
+    }
+
+    .ok {
+      border-left-color: var(--green);
+      background: #f3fbf8;
+    }
+
+    figure {
+      margin: 16px 0 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: #ffffff;
+    }
+
+    figure img {
+      display: block;
+      width: 100%;
+      max-height: 520px;
+      object-fit: contain;
+      background: white;
+    }
+
+    figcaption {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    th, td {
+      border: 1px solid var(--line);
+      padding: 9px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #eef2f7;
+      color: var(--ink);
+    }
+
+    tr.winner {
+      background: #f3fbf8;
+      font-weight: 700;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--green);
+      color: white;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 999px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
+    @media (max-width: 900px) {
+      .grid, .two, .flow, .grid4 {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 27px;
+      }
+
+      main, header {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Entrega 3 - Evolucion del Sistema Inteligente</h1>
+      <p class="subtitle">
+        Resumen visual de la correccion aplicada sobre la Entrega 2 (split por grupo de cancion para
+        eliminar la fuga de informacion, sin perder la senal real de persistencia en el ranking), la
+        comparacion de arquitecturas LSTM / GRU / Conv1D y los resultados obtenidos.
+      </p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="wrap">
+      <a href="#objetivo">Objetivo</a>
+      <a href="#correccion">Correccion aplicada</a>
+      <a href="#datos">Split por grupo</a>
+      <a href="#modelo">Arquitecturas comparadas</a>
+      <a href="#resultados">Resultados</a>
+      <a href="#comparacion">Vs. Entrega 2</a>
+      <a href="#lecciones">Lecciones aprendidas</a>
+      <a href="#archivos">Archivos</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="objetivo">
+      <h2>1. Objetivo de esta entrega</h2>
+      <p>
+        A partir de la evaluacion de la Entrega 2, el docente senalo dos observaciones concretas a resolver:
+        (1) ajustar la preparacion de los datos para evitar informacion duplicada, y (2) evaluar el uso de
+        otros tipos de redes para la rama temporal, como <code>GRU</code> y/o <code>ConvNet</code>. Esta
+        entrega aborda ambos puntos y compara los resultados obtenidos contra el prototipo anterior.
+      </p>
+      <div class="note ok">
+        Se mantiene la arquitectura hibrida general (rama temporal + rama de la cancion), pero se corrige el
+        esquema de seleccion de datos y se generaliza el codigo para poder intercambiar la capa temporal
+        entre LSTM, GRU y Conv1D.
+      </div>
+    </section>
+
+    <section>
+      <h2>2. Flujo general de trabajo</h2>
+      <div class="flow">
+        <div class="step">
+          <span class="num">1</span>
+          <strong>Deteccion</strong>
+          El problema real: el split cronologico de la Entrega 2 dejaba filtrar canciones entre train y test.
+        </div>
+        <div class="step">
+          <span class="num">2</span>
+          <strong>1ra iteracion (descartada)</strong>
+          Deduplicar a 1 fila/cancion: perdia senal real y dejaba solo 79 hits.
+        </div>
+        <div class="step">
+          <span class="num">3</span>
+          <strong>Solucion final</strong>
+          Split por grupo de cancion sobre el dataset completo (2019 filas, 769 hits).
+        </div>
+        <div class="step">
+          <span class="num">4</span>
+          <strong>3 arquitecturas</strong>
+          LSTM, GRU y Conv1D entrenadas bajo las mismas condiciones.
+        </div>
+        <div class="step">
+          <span class="num">5</span>
+          <strong>Comparacion</strong>
+          Metricas propias y contra la Entrega 2.
+        </div>
+      </div>
+    </section>
+
+    <section id="correccion">
+      <h2>3. Correccion aplicada: fuga de informacion (no la repeticion en si)</h2>
+      <p>
+        En la Entrega 2, una misma cancion hit generaba una fila de entrenamiento por cada semana que
+        permanecio en el ranking Billboard: de 1000 filas hit, solo 98 correspondian a canciones distintas
+        (~10 semanas repetidas por cancion, en promedio). Las 1450 canciones no-hit ya eran unicas.
+      </p>
+      <div class="note risk">
+        El problema real no es que una cancion aparezca en mas de una fila (cada semana tiene un contexto de
+        tendencias distinto, no es una copia identica), sino que el corte train/val/test de la Entrega 2 era
+        cronologico a nivel de fila: una misma cancion podia terminar con semanas en entrenamiento y semanas
+        en prueba, filtrando su "fingerprint" de audio (que si es constante) entre ambos conjuntos.
+      </div>
+      <p>
+        <strong>Primera iteracion (descartada):</strong> se probo eliminar toda repeticion, dejando una
+        unica fila por cancion. Al revisarlo se detecto que este enfoque tiraba una senal real del
+        fenomeno (que un hit permanece varias semanas en el ranking es informacion legitima, no ruido) y
+        reducia demasiado el tamano muestral: de 769 a apenas 79 canciones hit, con solo 20 en el conjunto
+        de prueba. Se concluyo que ese enfoque resolvia el sintoma tirando la esencia del problema.
+      </p>
+      <p>
+        <strong>Solucion final aplicada:</strong> se mantiene el dataset completo a nivel de cancion x
+        semana (2019 filas, 769 hits, igual que en la Entrega 2), y el split de entrenamiento/validacion/
+        prueba se hace por <strong>grupo de cancion</strong>: todas las semanas de una misma cancion quedan
+        garantizadas dentro de un unico subconjunto. Asi se elimina la fuga de informacion sin sacrificar
+        tamano de muestra ni senal temporal real.
+      </p>
+    </section>
+
+    <section id="datos">
+      <h2>4. Split por grupo de cancion</h2>
+      <p>
+        Como las canciones hit permanecen en el ranking una cantidad de semanas muy variable (entre 1 y 25),
+        un split por grupo aleatorio simple podria desviarse de las proporciones buscadas. Se implemento un
+        algoritmo de asignacion voraz (<em>greedy bin-packing</em>): las canciones de cada clase se ordenan
+        aleatoriamente y luego por cantidad de semanas en forma descendente, y cada cancion se asigna
+        integramente al subconjunto con mayor deficit respecto de su proporcion objetivo (60% train / 15%
+        validation / 25% test, semilla fija 42).
+      </p>
+      <div class="note ok">
+        El resultado quedo en 60,0% / 15,0% / 25,0% del total de filas, practicamente identico al objetivo,
+        cumpliendo ademas el minimo de 25% para el conjunto de prueba exigido por la catedra (la Entrega 2
+        habia usado 12,5%). Se verifico de forma explicita que ninguna cancion aparece en mas de un split.
+      </div>
+      <table>
+        <thead>
+          <tr><th>Conjunto</th><th>Filas</th><th>Hits</th><th>Canciones distintas</th><th>% del total</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Entrenamiento</td><td>1212</td><td>462</td><td>786</td><td>60,0%</td></tr>
+          <tr><td>Validacion</td><td>303</td><td>115</td><td>207</td><td>15,0%</td></tr>
+          <tr><td>Prueba</td><td>504</td><td>192</td><td>336</td><td>25,0%</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="modelo">
+      <h2>5. Arquitecturas comparadas</h2>
+      <p>
+        Se generalizo el modelo hibrido de la Entrega 2 para poder intercambiar la capa de la rama temporal,
+        manteniendo igual el resto de la red (rama de la cancion, concatenacion, cabeza de clasificacion),
+        de forma de poder atribuir las diferencias de desempeno unicamente al tipo de capa temporal usado.
+      </p>
+      <div class="grid">
+        <div class="item">
+          <strong>LSTM (linea base Entrega 2)</strong>
+          Capa LSTM de 32 unidades sobre la secuencia de 4 semanas.
+        </div>
+        <div class="item">
+          <strong>GRU</strong>
+          Capa GRU de 32 unidades; menos parametros que LSTM, util con dataset chico.
+        </div>
+        <div class="item">
+          <strong>Conv1D (ConvNet)</strong>
+          Dos capas Conv1D (32 filtros, kernel 2) + GlobalMaxPooling1D, sin estado recurrente.
+        </div>
+      </div>
+      <figure>
+        <img src="figura_arquitectura_entrega3.png" alt="Arquitectura conceptual de la Entrega 3" />
+        <figcaption>Arquitectura conceptual: la rama temporal es intercambiable entre LSTM, GRU y Conv1D.</figcaption>
+      </figure>
+    </section>
+
+    <section id="resultados">
+      <h2>6. Resultados obtenidos (conjunto de prueba, 504 filas, 192 hits)</h2>
+      <p>
+        Umbral de decision ajustado por maximizacion de F1 en el conjunto de validacion, igual criterio que
+        en la Entrega 2. Con 192 hits en test (vs. 20 en la primera iteracion descartada), las diferencias
+        entre arquitecturas son mucho mas confiables estadisticamente.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Arquitectura</th><th>Umbral</th><th>Accuracy</th><th>Precision</th>
+            <th>Recall</th><th>F1-score</th><th>ROC AUC</th><th>PR AUC</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="winner"><td>LSTM <span class="badge">recomendada</span></td><td>0,39</td><td>98,02%</td><td>95,50%</td><td>99,48%</td><td>97,45%</td><td>99,80%</td><td>99,68%</td></tr>
+          <tr><td>GRU</td><td>0,84</td><td>96,23%</td><td>98,87%</td><td>91,15%</td><td>94,85%</td><td>99,86%</td><td>99,76%</td></tr>
+          <tr><td>Conv1D</td><td>0,13</td><td>95,04%</td><td>88,48%</td><td>100,00%</td><td>93,89%</td><td>99,70%</td><td>99,45%</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Metricas de la arquitectura recomendada (LSTM)</h3>
+      <div class="grid grid4">
+        <div class="item metric">
+          <span class="value">98,02%</span>
+          <span class="label">Accuracy</span>
+        </div>
+        <div class="item metric">
+          <span class="value">95,50%</span>
+          <span class="label">Precision</span>
+        </div>
+        <div class="item metric">
+          <span class="value">99,48%</span>
+          <span class="label">Recall</span>
+        </div>
+        <div class="item metric">
+          <span class="value">97,45%</span>
+          <span class="label">F1-score</span>
+        </div>
+        <div class="item metric">
+          <span class="value">99,80%</span>
+          <span class="label">ROC AUC</span>
+        </div>
+        <div class="item metric">
+          <span class="value">99,68%</span>
+          <span class="label">PR AUC</span>
+        </div>
+        <div class="item metric">
+          <span class="value">0,39</span>
+          <span class="label">Umbral usado</span>
+        </div>
+        <div class="item metric">
+          <span class="value">191 / 192</span>
+          <span class="label">Hits detectados en test</span>
+        </div>
+      </div>
+
+      <div class="two grid">
+        <figure>
+          <img src="resultados_lstm_grouped/figura_metricas_lstm.png" alt="Metricas del modelo LSTM" />
+          <figcaption>Metricas del modelo LSTM en el conjunto de prueba (split por grupo).</figcaption>
+        </figure>
+        <figure>
+          <img src="resultados_lstm_grouped/figura_matriz_confusion_lstm.png" alt="Matriz de confusion LSTM" />
+          <figcaption>Matriz de confusion LSTM: 303 VN, 9 FP, 1 FN, 191 VP.</figcaption>
+        </figure>
+      </div>
+      <div class="two grid">
+        <figure>
+          <img src="resultados_gru_grouped/figura_matriz_confusion_gru.png" alt="Matriz de confusion GRU" />
+          <figcaption>Matriz de confusion GRU: 310 VN, 2 FP, 17 FN, 175 VP.</figcaption>
+        </figure>
+        <figure>
+          <img src="resultados_conv1d_grouped/figura_matriz_confusion_conv1d.png" alt="Matriz de confusion Conv1D" />
+          <figcaption>Matriz de confusion Conv1D: 287 VN, 25 FP, 0 FN, 192 VP.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="comparacion">
+      <h2>7. Comparacion contra la Entrega 2</h2>
+
+      <h3>7.1 Comparacion de los datasets y del split</h3>
+      <p>
+        Antes de comparar metricas, conviene comparar el dataset y el criterio de split, ya que la
+        correccion de esta entrega esta en la metodologia de evaluacion y no en el volumen de datos:
+      </p>
+      <table>
+        <thead>
+          <tr><th>Aspecto</th><th>Entrega 2</th><th>Entrega 3</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Unidad de analisis</td><td>Una fila por cancion y semana en el ranking</td><td>Una fila por cancion y semana en el ranking (sin cambios)</td></tr>
+          <tr><td>Filas totales</td><td>2019</td><td>2019</td></tr>
+          <tr><td>Canciones hit unicas</td><td>98 (en 1000 filas)</td><td>79 con contexto completo (en 769 filas)</td></tr>
+          <tr><td>Proporcion de hits (filas)</td><td>38,1%</td><td>38,1% (sin cambios; no se elimina informacion)</td></tr>
+          <tr><td>Metodo de split</td><td>Cronologico por fecha, a nivel de fila</td><td>Por grupo de cancion (greedy bin-packing), estratificado por clase</td></tr>
+          <tr><td>Tamano del conjunto de prueba</td><td>252 filas (12,5%, por debajo del minimo)</td><td>504 filas (25,0%, cumple el minimo)</td></tr>
+          <tr><td>Riesgo de fuga de informacion</td><td>Si: una cancion podia tener semanas en train y en test</td><td>No: cada cancion (con todas sus semanas) queda en un unico subconjunto</td></tr>
+        </tbody>
+      </table>
+
+      <div class="note ok">
+        <strong>Ventajas del esquema de datos/split de la Entrega 3:</strong>
+        <ul>
+          <li>Elimina la fuga de informacion sin descartar filas: se resuelve en el split, no en el dataset.</li>
+          <li>Conserva el tamano de muestra completo (2019 filas, 769 hits), evitando el problema de la
+          primera iteracion, que habia reducido la clase positiva a 79 canciones.</li>
+          <li>Preserva la senal real del fenomeno: que un hit permanece varias semanas en el ranking es
+          informacion legitima, no un artefacto a eliminar.</li>
+          <li>Cumple el minimo de 25% de datos de prueba exigido por la catedra (la Entrega 2 usaba 12,5%),
+          con proporciones finales de 60,0% / 15,0% / 25,0% gracias al algoritmo de asignacion voraz.</li>
+          <li>Permite una comparacion de arquitecturas mas confiable: 192 hits en test (vs. 20 en la primera
+          iteracion) dan mayor robustez estadistica a las diferencias observadas.</li>
+        </ul>
+      </div>
+
+      <h3>7.2 Comparacion de metricas</h3>
+      <table>
+        <thead>
+          <tr><th>Version</th><th>Accuracy</th><th>Precision</th><th>Recall</th><th>F1-score</th><th>ROC AUC</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Entrega 2 (LSTM, split cronologico con fuga)</td><td>98,81%</td><td>94,55%</td><td>100,00%</td><td>97,20%</td><td>99,69%</td></tr>
+          <tr class="winner"><td>Entrega 3 - LSTM (split por grupo)</td><td>98,02%</td><td>95,50%</td><td>99,48%</td><td>97,45%</td><td>99,80%</td></tr>
+          <tr><td>Entrega 3 - GRU (split por grupo)</td><td>96,23%</td><td>98,87%</td><td>91,15%</td><td>94,85%</td><td>99,86%</td></tr>
+          <tr><td>Entrega 3 - Conv1D (split por grupo)</td><td>95,04%</td><td>88,48%</td><td>100,00%</td><td>93,89%</td><td>99,70%</td></tr>
+        </tbody>
+      </table>
+      <figure>
+        <img src="figura_comparacion_entrega2_vs_entrega3.png" alt="Comparacion Entrega 2 vs Entrega 3" />
+        <figcaption>Comparacion de metricas de test entre la Entrega 2 y las tres arquitecturas de la Entrega 3 (split por grupo).</figcaption>
+      </figure>
+      <div class="note ok">
+        El resultado mas relevante: al eliminar por completo el riesgo de fuga de informacion, las metricas
+        de LSTM se mantuvieron practicamente iguales a las de la Entrega 2, e incluso mejoraron levemente en
+        F1 (97,45% vs 97,20%) y ROC AUC (99,80% vs 99,69%). Esto indica que el buen desempeno de la
+        Entrega 2 no era, en su mayor parte, un artefacto de la fuga de informacion: el modelo efectivamente
+        aprendio patrones generalizables. La correccion metodologica no buscaba bajar las metricas, sino
+        garantizar que fueran confiables — y el hecho de que se mantengan altas bajo una evaluacion mas
+        estricta fortalece la validez del sistema.
+      </div>
+
+      <h3>7.3 Por que un split aleatorio simple no alcanza: variante descartada</h3>
+      <p>
+        Se evaluo tambien una variante intermedia: mismo dataset completo (cancion x semana, sin
+        deduplicar), pero con <code>train_test_split</code> estratificado por clase a nivel de FILA, sin
+        agrupar por cancion. Se descarto porque vuelve a permitir que una misma cancion tenga semanas en
+        mas de un subconjunto: se verifico que <strong>56 canciones quedan repartidas entre entrenamiento y
+        prueba</strong> (43 entre train/val, 41 entre val/test) — por ejemplo, "Calling My Phone" de Lil
+        Tjay y 6LACK aporta 10 filas repartidas entre ambos conjuntos. Reproduce el mismo problema
+        metodologico de la Entrega 2, sobre un dataset distinto.
+      </p>
+      <table>
+        <thead>
+          <tr><th>Version (arquitectura LSTM)</th><th>Accuracy</th><th>Precision</th><th>Recall</th><th>F1-score</th><th>ROC AUC</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Entrega 2 (split cronologico, con fuga)</td><td>98,81%</td><td>94,55%</td><td>100,00%</td><td>97,20%</td><td>99,69%</td></tr>
+          <tr><td>Variante descartada (split aleatorio por fila, con fuga)</td><td>99,41%</td><td>98,46%</td><td>100,00%</td><td>99,22%</td><td>99,63%</td></tr>
+          <tr class="winner"><td>Entrega 3 final (split por grupo, sin fuga)</td><td>98,02%</td><td>95,50%</td><td>99,48%</td><td>97,45%</td><td>99,80%</td></tr>
+        </tbody>
+      </table>
+      <div class="note risk">
+        La variante descartada tiene las metricas mas altas de las tres (F1 99,22%), pero por el motivo
+        equivocado: al filtrar canciones entre train y test, el modelo se apoya parcialmente en haberlas
+        "visto" durante el entrenamiento. Esto confirma, con un segundo ejemplo independiente del de la
+        Entrega 2, que un split a nivel de fila no alcanza cuando hay multiples filas por cancion: hace
+        falta un split por grupo para que las metricas sean confiables.
+      </div>
+    </section>
+
+    <section id="lecciones">
+      <h2>8. Lecciones aprendidas</h2>
+      <ul>
+        <li><strong>No toda repeticion de datos es "informacion duplicada" en sentido negativo:</strong> que
+        una cancion aparezca en varias semanas del ranking es parte real del fenomeno (la persistencia de un
+        hit); el problema no era la repeticion en si, sino permitir que cruzara la frontera train/test.</li>
+        <li><strong>La primera solucion no siempre es la correcta:</strong> deduplicar por completo parecio
+        al principio la forma mas directa de "eliminar duplicados", pero el resultado (79 hits en vez de
+        769, solo 20 en test) mostro que resolvia el sintoma tirando informacion valiosa del problema real.</li>
+        <li><strong>El lugar correcto para resolver una fuga de informacion suele ser el split, no el
+        dataset:</strong> un split por grupo (por entidad, aqui la cancion) conserva todos los datos y a la
+        vez garantiza que ninguna entidad se filtre entre subconjuntos.</li>
+        <li><strong>Con grupos de tamano desigual, un split aleatorio simple no alcanza:</strong> se necesito
+        un algoritmo de asignacion voraz (greedy bin-packing) para que las proporciones de filas por
+        subconjunto se acercaran al objetivo 60/15/25.</li>
+        <li><strong>Mejores metricas no siempre significan un mejor sistema, y peores metricas no siempre
+        significan un sistema peor:</strong> lo importante es que la metrica sea confiable. Aqui, una
+        evaluacion mas estricta dio metricas similares o mejores que la Entrega 2 — el mejor escenario
+        posible: rigurosidad sin sacrificar desempeno.</li>
+        <li><strong>Aislar la variable en comparacion simplifica el analisis:</strong> generalizar el codigo
+        para intercambiar solo la capa temporal permitio atribuir las diferencias de desempeno al tipo de
+        capa, no a otros cambios simultaneos.</li>
+        <li><strong>"Usar el dataset completo" no alcanza si el split sigue siendo por fila:</strong> se
+        probo una variante que mantenia el dataset sin deduplicar (correcto) pero seleccionaba train/val/test
+        con <code>train_test_split</code> estratificado por clase a nivel de fila, sin agrupar por cancion.
+        Se encontro que 56 canciones quedaban repartidas entre entrenamiento y prueba, reproduciendo la misma
+        fuga de la Entrega 2 sobre un dataset distinto, con metricas aun mas altas (F1 99,22%) precisamente
+        por esa fuga. Esto confirmo, con un segundo caso independiente, que evitar la duplicacion de
+        canciones y evitar la fuga de informacion entre canciones son dos cosas distintas: conservar todas
+        las filas es necesario pero no alcanza si el criterio de split no agrupa por la entidad que se
+        repite.</li>
+      </ul>
+    </section>
+
+    <section id="archivos">
+      <h2>9. Archivos importantes</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Archivo</th>
+            <th>Para que sirve</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>Entrega N° 3_ Evolucion del Sistema Inteligente.docx</code></td>
+            <td>Documento final de la entrega (formato oficial de la catedra).</td>
+          </tr>
+          <tr>
+            <td><code>tracks_charts_grouped_dataset.csv</code></td>
+            <td>Dataset final: cancion x semana completo (2019 filas), sin deduplicar.</td>
+          </tr>
+          <tr>
+            <td><code>split_asignacion_canciones.csv</code></td>
+            <td>Que subconjunto (train/val/test) quedo asignado a cada cancion.</td>
+          </tr>
+          <tr>
+            <td><code>scripts/build_grouped_dataset.py</code></td>
+            <td>Script que construye el dataset completo cancion x semana.</td>
+          </tr>
+          <tr>
+            <td><code>scripts/train_all_architectures_grouped.py</code></td>
+            <td>Split por grupo de cancion + entrenamiento/evaluacion de LSTM, GRU y Conv1D.</td>
+          </tr>
+          <tr>
+            <td><code>resultados_lstm_grouped/</code>, <code>resultados_gru_grouped/</code>, <code>resultados_conv1d_grouped/</code></td>
+            <td>Modelo entrenado (.keras), preprocesadores, metricas, predicciones y figuras de cada arquitectura (version final).</td>
+          </tr>
+          <tr>
+            <td><code>comparacion_arquitecturas_grouped.csv</code> / <code>.md</code></td>
+            <td>Tabla comparativa de metricas de las 3 arquitecturas (version final).</td>
+          </tr>
+          <tr>
+            <td><code>tracks_charts_dedup_dataset.csv</code>, <code>resultados_lstm/</code>, <code>resultados_gru/</code>, <code>resultados_conv1d/</code>, <code>comparacion_arquitecturas.csv/.md</code></td>
+            <td>Primera iteracion (deduplicacion total), conservada como registro del proceso; reemplazada por la version final descripta arriba.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="small">
+        Todo lo generado para esta entrega esta agrupado en la carpeta <code>Entrega 3</code>.
+      </p>
+    </section>
+  </main>
+</body>
+</html>

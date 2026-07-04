@@ -1,0 +1,44 @@
+Modelo LSTM - metricas (Entrega 3, split por grupo de cancion)
+Dataset: tracks_charts_grouped_dataset.csv
+Filas totales: 2019 (hit=769, no-hit=1250)
+Train: 1212 filas (462 hit)
+Validation: 303 filas (115 hit)
+Test: 504 filas (192 hit)
+Mejor umbral por F1 en validacion: 0.39
+
+Validation
+Threshold: 0.5000
+Accuracy: 0.9703
+Precision: 0.9492
+Recall: 0.9739
+F1: 0.9614
+ROC AUC: 0.9928
+PR AUC: 0.9847
+Confusion matrix: [[182, 6], [3, 112]]
+              precision    recall  f1-score   support
+
+           0       0.98      0.97      0.98       188
+           1       0.95      0.97      0.96       115
+
+    accuracy                           0.97       303
+   macro avg       0.97      0.97      0.97       303
+weighted avg       0.97      0.97      0.97       303
+
+Test
+Threshold: 0.3900
+Accuracy: 0.9802
+Precision: 0.9550
+Recall: 0.9948
+F1: 0.9745
+ROC AUC: 0.9980
+PR AUC: 0.9968
+Confusion matrix: [[303, 9], [1, 191]]
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98       312
+           1       0.95      0.99      0.97       192
+
+    accuracy                           0.98       504
+   macro avg       0.98      0.98      0.98       504
+weighted avg       0.98      0.98      0.98       504
+

@@ -1,0 +1,44 @@
+Modelo LSTM - metricas (Entrega 3, dataset deduplicado)
+Dataset: tracks_charts_dedup_dataset.csv
+Filas totales: 1329 (hit=79, no-hit=1250)
+Train: 796 filas (47 hit)
+Validation: 200 filas (12 hit)
+Test: 333 filas (20 hit)
+Mejor umbral por F1 en validacion: 0.85
+
+Validation
+Threshold: 0.5000
+Accuracy: 0.9700
+Precision: 0.7500
+Recall: 0.7500
+F1: 0.7500
+ROC AUC: 0.9916
+PR AUC: 0.9086
+Confusion matrix: [[185, 3], [3, 9]]
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98       188
+           1       0.75      0.75      0.75        12
+
+    accuracy                           0.97       200
+   macro avg       0.87      0.87      0.87       200
+weighted avg       0.97      0.97      0.97       200
+
+Test
+Threshold: 0.8500
+Accuracy: 0.9940
+Precision: 1.0000
+Recall: 0.9000
+F1: 0.9474
+ROC AUC: 0.9968
+PR AUC: 0.9702
+Confusion matrix: [[313, 0], [2, 18]]
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00       313
+           1       1.00      0.90      0.95        20
+
+    accuracy                           0.99       333
+   macro avg       1.00      0.95      0.97       333
+weighted avg       0.99      0.99      0.99       333
+

@@ -1,0 +1,44 @@
+Modelo GRU - metricas (Entrega 3, split por grupo de cancion)
+Dataset: tracks_charts_grouped_dataset.csv
+Filas totales: 2019 (hit=769, no-hit=1250)
+Train: 1212 filas (462 hit)
+Validation: 303 filas (115 hit)
+Test: 504 filas (192 hit)
+Mejor umbral por F1 en validacion: 0.84
+
+Validation
+Threshold: 0.5000
+Accuracy: 0.9505
+Precision: 0.9545
+Recall: 0.9130
+F1: 0.9333
+ROC AUC: 0.9897
+PR AUC: 0.9788
+Confusion matrix: [[183, 5], [10, 105]]
+              precision    recall  f1-score   support
+
+           0       0.95      0.97      0.96       188
+           1       0.95      0.91      0.93       115
+
+    accuracy                           0.95       303
+   macro avg       0.95      0.94      0.95       303
+weighted avg       0.95      0.95      0.95       303
+
+Test
+Threshold: 0.8400
+Accuracy: 0.9623
+Precision: 0.9887
+Recall: 0.9115
+F1: 0.9485
+ROC AUC: 0.9986
+PR AUC: 0.9976
+Confusion matrix: [[310, 2], [17, 175]]
+              precision    recall  f1-score   support
+
+           0       0.95      0.99      0.97       312
+           1       0.99      0.91      0.95       192
+
+    accuracy                           0.96       504
+   macro avg       0.97      0.95      0.96       504
+weighted avg       0.96      0.96      0.96       504
+

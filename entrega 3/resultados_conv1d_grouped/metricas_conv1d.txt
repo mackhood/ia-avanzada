@@ -1,0 +1,44 @@
+Modelo CONV1D - metricas (Entrega 3, split por grupo de cancion)
+Dataset: tracks_charts_grouped_dataset.csv
+Filas totales: 2019 (hit=769, no-hit=1250)
+Train: 1212 filas (462 hit)
+Validation: 303 filas (115 hit)
+Test: 504 filas (192 hit)
+Mejor umbral por F1 en validacion: 0.13
+
+Validation
+Threshold: 0.5000
+Accuracy: 0.9373
+Precision: 0.9138
+Recall: 0.9217
+F1: 0.9177
+ROC AUC: 0.9904
+PR AUC: 0.9821
+Confusion matrix: [[178, 10], [9, 106]]
+              precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95       188
+           1       0.91      0.92      0.92       115
+
+    accuracy                           0.94       303
+   macro avg       0.93      0.93      0.93       303
+weighted avg       0.94      0.94      0.94       303
+
+Test
+Threshold: 0.1300
+Accuracy: 0.9504
+Precision: 0.8848
+Recall: 1.0000
+F1: 0.9389
+ROC AUC: 0.9970
+PR AUC: 0.9945
+Confusion matrix: [[287, 25], [0, 192]]
+              precision    recall  f1-score   support
+
+           0       1.00      0.92      0.96       312
+           1       0.88      1.00      0.94       192
+
+    accuracy                           0.95       504
+   macro avg       0.94      0.96      0.95       504
+weighted avg       0.96      0.95      0.95       504
+

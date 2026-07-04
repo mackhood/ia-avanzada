@@ -1,0 +1,31 @@
+Validation report for tracks_charts_dedup_dataset.csv (Entrega 3)
+
+Objetivo: eliminar la duplicacion de informacion senalada por el docente en la Entrega 2
+(una misma cancion hit generaba una fila de entrenamiento por cada semana en el ranking).
+
+Input rows:
+  tracks_charts_hit_cleaned.csv: 1000 filas, 98 canciones unicas
+  tracks_charts_not_hit_cleaned.csv: 1450 filas, 1450 canciones unicas
+
+Deduplicacion:
+  filas de hit descartadas por repetir semana de una cancion ya vista: 921
+  filas de no-hit descartadas por repetir semana de una cancion ya vista: 200
+  canciones hit conservadas (semana de debut unicamente): 79
+  canciones no-hit conservadas: 1250
+
+Dataset final (una fila por cancion, con contexto de 4 semanas previas):
+  filas totales: 1329
+  hit=1: 79 (5.94%)
+  hit=0: 1250 (94.06%)
+  rango de fechas: 2021-05-22 a 2021-11-06
+  columnas: 68
+
+Checks:
+  sin duplicados de date/song/artist en datos crudos combinados: OK
+  sin canciones presentes simultaneamente como hit y no-hit: OK
+  una unica fila por cancion/artista en el dataset final: OK
+  contexto temporal calculado sobre la ocupacion real del ranking (no deduplicada): OK
+  variable rank excluida (evita fuga de informacion): OK
+
+Columnas:
+  date, clean_name, clean_artists, rank, song, duration_ms, artists, explicit, release_date, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, time_signature, hit, release_year, ctx_danceability_t_minus_1, ctx_energy_t_minus_1, ctx_speechiness_t_minus_1, ctx_acousticness_t_minus_1, ctx_instrumentalness_t_minus_1, ctx_liveness_t_minus_1, ctx_valence_t_minus_1, ctx_tempo_t_minus_1, ctx_loudness_t_minus_1, ctx_danceability_t_minus_2, ctx_energy_t_minus_2, ctx_speechiness_t_minus_2, ctx_acousticness_t_minus_2, ctx_instrumentalness_t_minus_2, ctx_liveness_t_minus_2, ctx_valence_t_minus_2, ctx_tempo_t_minus_2, ctx_loudness_t_minus_2, ctx_danceability_t_minus_3, ctx_energy_t_minus_3, ctx_speechiness_t_minus_3, ctx_acousticness_t_minus_3, ctx_instrumentalness_t_minus_3, ctx_liveness_t_minus_3, ctx_valence_t_minus_3, ctx_tempo_t_minus_3, ctx_loudness_t_minus_3, ctx_danceability_t_minus_4, ctx_energy_t_minus_4, ctx_speechiness_t_minus_4, ctx_acousticness_t_minus_4, ctx_instrumentalness_t_minus_4, ctx_liveness_t_minus_4, ctx_valence_t_minus_4, ctx_tempo_t_minus_4, ctx_loudness_t_minus_4, delta_danceability_vs_prev4_hit_avg, delta_energy_vs_prev4_hit_avg, delta_speechiness_vs_prev4_hit_avg, delta_acousticness_vs_prev4_hit_avg, delta_instrumentalness_vs_prev4_hit_avg, delta_liveness_vs_prev4_hit_avg, delta_valence_vs_prev4_hit_avg, delta_tempo_vs_prev4_hit_avg, delta_loudness_vs_prev4_hit_avg

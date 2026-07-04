@@ -1,0 +1,505 @@
+date,song,artists,hit,predicted_probability,predicted_hit,correct
+2021-05-22,big wheel,mental as anything,0,7.044494e-07,0,True
+2021-05-22,coisas que a vida ensina,josé augusto,0,1.0796359e-05,0,True
+2021-05-22,coração materno,vicente celestino,0,5.6308136e-07,0,True
+2021-05-22,forever you and me,the teskey brothers,0,0.00025887648,0,True
+2021-05-22,illégal,corbeau,0,2.44543e-05,0,True
+2021-05-22,running back to you,commissioned,0,7.718233e-06,0,True
+2021-05-22,4 Da Gang,"[""42 Dugg"",""Roddy Ricch""]",1,0.9842432,1,True
+2021-05-22,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.9936366,1,True
+2021-05-22,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.995173,1,True
+2021-05-22,Best Friend,"[""Saweetie"",""Doja Cat""]",1,0.99892205,1,True
+2021-05-22,Calling My Phone,"[""Lil Tjay"",""6LACK""]",1,0.97725797,1,True
+2021-05-22,Drankin N Smokin,"[""Future"",""Lil Uzi Vert""]",1,0.98090065,1,True
+2021-05-22,Drivers License,"[""Olivia Rodrigo""]",1,0.9947476,1,True
+2021-05-22,Gone,"[""Dierks Bentley""]",1,0.9963936,1,True
+2021-05-22,Good Days,"[""SZA""]",1,0.268811,1,True
+2021-05-22,Heartbreak Anniversary,"[""Giveon""]",1,0.96848917,1,True
+2021-05-22,On Me,"[""Lil Baby""]",1,0.9565145,1,True
+2021-05-22,Pick Up Your Feelings,"[""Jazmine Sullivan""]",1,0.9835022,1,True
+2021-05-22,Positions,"[""Ariana Grande""]",1,0.99551076,1,True
+2021-05-22,Settling Down,"[""Miranda Lambert""]",1,0.9809419,1,True
+2021-05-22,The Good Ones,"[""Gabby Barrett""]",1,0.9950379,1,True
+2021-05-22,Time Today,"[""Moneybagg Yo""]",1,0.88138235,1,True
+2021-05-22,We're Good,"[""Dua Lipa""]",1,0.9980509,1,True
+2021-05-22,What's Next,"[""Drake""]",1,0.9993099,1,True
+2021-05-22,You Broke Me First.,"[""Tate McRae""]",1,0.980728,1,True
+2021-05-22,You're Mines Still,"[""Yung Bleu"",""Drake""]",1,0.99361616,1,True
+2021-05-29,fire,arthur brown,0,3.9195243e-06,0,True
+2021-05-29,honky tonk - stereo,the ventures,0,5.2052362e-09,0,True
+2021-05-29,it might be you,kai,0,0.0010292826,0,True
+2021-05-29,kuiskaten - whispering,annikki tähti,0,5.0274443e-06,0,True
+2021-05-29,last to know - remastered 2012 version,blue rodeo,0,0.046233267,0,True
+2021-05-29,læt þau dreyma,vinir vors & blóma,0,1.1533898e-05,0,True
+2021-05-29,ondabazabantu,dalom kids,0,2.960398e-05,0,True
+2021-05-29,que cocine caridad,tito rodriguez,0,1.7835664e-08,0,True
+2021-05-29,que vale mas,marino,0,0.00028785708,0,True
+2021-05-29,relincho,santiago chalar,0,0.00016560542,0,True
+2021-05-29,skinhead,the skinflicks,0,0.43256837,1,False
+2021-05-29,sweet leaf,black sabbath,0,6.0146754e-06,0,True
+2021-05-29,te beso,amén,0,0.36853567,1,False
+2021-05-29,when you know,puggy,0,0.15759593,1,False
+2021-05-29,yeh hawayen salaam kahti hain,amirbai karnataki,0,1.5855387e-06,0,True
+2021-05-29,4 Da Gang,"[""42 Dugg"",""Roddy Ricch""]",1,0.98363507,1,True
+2021-05-29,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.99298656,1,True
+2021-05-29,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.9947155,1,True
+2021-05-29,Best Friend,"[""Saweetie"",""Doja Cat""]",1,0.9987729,1,True
+2021-05-29,Calling My Phone,"[""Lil Tjay"",""6LACK""]",1,0.9759588,1,True
+2021-05-29,Drankin N Smokin,"[""Future"",""Lil Uzi Vert""]",1,0.98085034,1,True
+2021-05-29,Drivers License,"[""Olivia Rodrigo""]",1,0.99415725,1,True
+2021-05-29,Gone,"[""Dierks Bentley""]",1,0.99618757,1,True
+2021-05-29,Heartbreak Anniversary,"[""Giveon""]",1,0.9675013,1,True
+2021-05-29,On Me,"[""Lil Baby""]",1,0.95765543,1,True
+2021-05-29,Pick Up Your Feelings,"[""Jazmine Sullivan""]",1,0.9817687,1,True
+2021-05-29,Settling Down,"[""Miranda Lambert""]",1,0.98090535,1,True
+2021-05-29,The Good Ones,"[""Gabby Barrett""]",1,0.994905,1,True
+2021-05-29,Time Today,"[""Moneybagg Yo""]",1,0.88587075,1,True
+2021-05-29,Wasted On You,"[""Morgan Wallen""]",1,0.98401237,1,True
+2021-05-29,We're Good,"[""Dua Lipa""]",1,0.997728,1,True
+2021-05-29,What's Next,"[""Drake""]",1,0.99918944,1,True
+2021-06-05,amacala,siphokazi,0,0.00039001112,0,True
+2021-06-05,apla mousiki,terror x crew,0,0.00012272033,0,True
+2021-06-05,black widow - 2012 remaster,loudness,0,0.00013751817,0,True
+2021-06-05,das lied der schlümpfe,vader abraham,0,1.13796605e-05,0,True
+2021-06-05,dernière journée en mer,matmatah,0,0.18688162,1,False
+2021-06-05,det va då,perkele,0,0.003293242,0,True
+2021-06-05,elokuun 11. - 2001 digital remaster,suurlähettiläät,0,1.0176189e-05,0,True
+2021-06-05,hatırlamıyorum,sansar salvo,0,0.03193164,0,True
+2021-06-05,kızıldere,grup yorum,0,1.6042275e-05,0,True
+2021-06-05,le blues du businessman - 2009 remaster,claude dubois,0,0.0030914065,0,True
+2021-06-05,muumilaakson aamu,jari sillanpää,0,0.0001539408,0,True
+2021-06-05,podleham,chinaski,0,0.010086382,0,True
+2021-06-05,poquito mas,infected mushroom,0,3.6770838e-05,0,True
+2021-06-05,sing sing,gaz,0,2.1971208e-11,0,True
+2021-06-05,skin and bones,jean ritchie,0,8.720062e-08,0,True
+2021-06-05,terbakar cemburu - edited ver,padi,0,9.6649695e-05,0,True
+2021-06-05,un pobre con dinero,sfdk,0,0.00014170655,0,True
+2021-06-05,whiskey sunsets - live,moon taxi,0,0.00013723184,0,True
+2021-06-05,you got me,toto,0,1.0671444e-05,0,True
+2021-06-05,4 Da Gang,"[""42 Dugg"",""Roddy Ricch""]",1,0.98390836,1,True
+2021-06-05,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.9936148,1,True
+2021-06-05,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.9951583,1,True
+2021-06-05,Best Friend,"[""Saweetie"",""Doja Cat""]",1,0.99889994,1,True
+2021-06-05,Calling My Phone,"[""Lil Tjay"",""6LACK""]",1,0.9772017,1,True
+2021-06-05,Drankin N Smokin,"[""Future"",""Lil Uzi Vert""]",1,0.9814075,1,True
+2021-06-05,Drivers License,"[""Olivia Rodrigo""]",1,0.99453396,1,True
+2021-06-05,Gone,"[""Dierks Bentley""]",1,0.99639285,1,True
+2021-06-05,Heartbreak Anniversary,"[""Giveon""]",1,0.96805555,1,True
+2021-06-05,On Me,"[""Lil Baby""]",1,0.95800453,1,True
+2021-06-05,Pick Up Your Feelings,"[""Jazmine Sullivan""]",1,0.9832022,1,True
+2021-06-05,Settling Down,"[""Miranda Lambert""]",1,0.9822769,1,True
+2021-06-05,The Good Ones,"[""Gabby Barrett""]",1,0.99513674,1,True
+2021-06-05,Time Today,"[""Moneybagg Yo""]",1,0.88572955,1,True
+2021-06-05,Wasted On You,"[""Morgan Wallen""]",1,0.9854242,1,True
+2021-06-05,We're Good,"[""Dua Lipa""]",1,0.9979426,1,True
+2021-06-05,What's Next,"[""Drake""]",1,0.9992617,1,True
+2021-06-12,dekh liya tune gham ka tamasha,s. d. batish,0,3.4380463e-07,0,True
+2021-06-12,esposa y querida,lebrón brothers,0,2.3290006e-06,0,True
+2021-06-12,la mala maña,el afinaito,0,6.505954e-06,0,True
+2021-06-12,milk an money,eraserheads,0,2.3459037e-07,0,True
+2021-06-12,no te iras,sexappeal,0,9.5082277e-07,0,True
+2021-06-12,que se me acabe la vida,josé alfredo jimenez,0,6.3113953e-06,0,True
+2021-06-12,soñadora del carnaval,los fronterizos,0,3.93161e-08,0,True
+2021-06-12,the willow,the albion band,0,1.2546238e-06,0,True
+2021-06-12,zion train,bob marley & the wailers,0,1.6032849e-06,0,True
+2021-06-12,4 Da Gang,"[""42 Dugg"",""Roddy Ricch""]",1,0.98309654,1,True
+2021-06-12,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.9935523,1,True
+2021-06-12,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.9950876,1,True
+2021-06-12,Best Friend,"[""Saweetie"",""Doja Cat""]",1,0.9988801,1,True
+2021-06-12,Calling My Phone,"[""Lil Tjay"",""6LACK""]",1,0.97815716,1,True
+2021-06-12,Drankin N Smokin,"[""Future"",""Lil Uzi Vert""]",1,0.9807189,1,True
+2021-06-12,Drivers License,"[""Olivia Rodrigo""]",1,0.994305,1,True
+2021-06-12,Gone,"[""Dierks Bentley""]",1,0.9964429,1,True
+2021-06-12,Heartbreak Anniversary,"[""Giveon""]",1,0.9670907,1,True
+2021-06-12,On Me,"[""Lil Baby""]",1,0.95710903,1,True
+2021-06-12,Pick Up Your Feelings,"[""Jazmine Sullivan""]",1,0.9826065,1,True
+2021-06-12,Settling Down,"[""Miranda Lambert""]",1,0.9825057,1,True
+2021-06-12,The Good Ones,"[""Gabby Barrett""]",1,0.99511987,1,True
+2021-06-12,Time Today,"[""Moneybagg Yo""]",1,0.88141954,1,True
+2021-06-12,Wasted On You,"[""Morgan Wallen""]",1,0.9845347,1,True
+2021-06-12,We're Good,"[""Dua Lipa""]",1,0.9978738,1,True
+2021-06-12,What's Next,"[""Drake""]",1,0.9992375,1,True
+2021-06-19,alone in a strange place,sipho gumede,0,7.80104e-05,0,True
+2021-06-19,back door,stray kids,0,0.33291078,1,False
+2021-06-19,bling-bling,adrien antoine,0,0.986645,1,False
+2021-06-19,confidências,jorge de altinho,0,0.00087954575,0,True
+2021-06-19,ela na me teliosis - live version,antonis remos,0,3.6445435e-05,0,True
+2021-06-19,happy flying carpet,michel de villers,0,1.8613647e-10,0,True
+2021-06-19,hej se på mig,kenneth & the knutters,0,7.362882e-06,0,True
+2021-06-19,karpura bomma,p. susheela,0,1.4302131e-07,0,True
+2021-06-19,la mer,nicolás cieri,0,4.093778e-06,0,True
+2021-06-19,name pali edo zodanos,tripes,0,4.3286702e-05,0,True
+2021-06-19,norwegian boogie,eddie meduza,0,0.00046393942,0,True
+2021-06-19,the boogie disease,doctor ross,0,7.102359e-07,0,True
+2021-06-19,the homecoming,friðrik karlsson,0,6.5337305e-11,0,True
+2021-06-19,umacapiruá,pim pau,0,0.9070493,1,False
+2021-06-19,vestida de garza blanca,cholo valderrama,0,0.088742405,0,True
+2021-06-19,yo me he visto en tus ojos,julio jaramillo,0,1.8170558e-06,0,True
+2021-06-19,young love,ray conniff,0,4.6020837e-06,0,True
+2021-06-19,4 Da Gang,"[""42 Dugg"",""Roddy Ricch""]",1,0.98425585,1,True
+2021-06-19,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.99458337,1,True
+2021-06-19,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.9960764,1,True
+2021-06-19,Best Friend,"[""Saweetie"",""Doja Cat""]",1,0.999016,1,True
+2021-06-19,Calling My Phone,"[""Lil Tjay"",""6LACK""]",1,0.98069036,1,True
+2021-06-19,Drivers License,"[""Olivia Rodrigo""]",1,0.9952698,1,True
+2021-06-19,Gone,"[""Dierks Bentley""]",1,0.99703074,1,True
+2021-06-19,Heartbreak Anniversary,"[""Giveon""]",1,0.97110283,1,True
+2021-06-19,Settling Down,"[""Miranda Lambert""]",1,0.9854184,1,True
+2021-06-19,Time Today,"[""Moneybagg Yo""]",1,0.8829304,1,True
+2021-06-19,We're Good,"[""Dua Lipa""]",1,0.9981999,1,True
+2021-06-19,What's Next,"[""Drake""]",1,0.99936557,1,True
+2021-06-26,alfie,connie francis,0,2.843758e-05,0,True
+2021-06-26,amalfi,hooverphonic,0,0.0005579231,0,True
+2021-06-26,date ur fada,ebony,0,1.9084677e-05,0,True
+2021-06-26,forever,tina cousins,0,0.00010840427,0,True
+2021-06-26,freight train,elizabeth cotten,0,0.00013276236,0,True
+2021-06-26,habi steez,akkezdet phiai,0,0.7672149,1,False
+2021-06-26,jamaica,vilhjálmur vilhjálmsson,0,1.176504e-09,0,True
+2021-06-26,oye mujer,jambao,0,0.012904421,0,True
+2021-06-26,sana geldim,bülent ortaçgil,0,1.2528813e-05,0,True
+2021-06-26,sé que tú no estás solo,amén,0,0.00019322331,0,True
+2021-06-26,vals del amor - remasterizado,francisco canaro,0,1.0667126e-06,0,True
+2021-06-26,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.99529284,1,True
+2021-06-26,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.996439,1,True
+2021-06-26,Best Friend,"[""Saweetie"",""Doja Cat""]",1,0.9990965,1,True
+2021-06-26,Calling My Phone,"[""Lil Tjay"",""6LACK""]",1,0.9831074,1,True
+2021-06-26,Drivers License,"[""Olivia Rodrigo""]",1,0.99562913,1,True
+2021-06-26,Gone,"[""Dierks Bentley""]",1,0.99735254,1,True
+2021-06-26,Heartbreak Anniversary,"[""Giveon""]",1,0.97315514,1,True
+2021-06-26,Settling Down,"[""Miranda Lambert""]",1,0.9873847,1,True
+2021-06-26,Time Today,"[""Moneybagg Yo""]",1,0.89369714,1,True
+2021-07-03,cuando tenga la tierra,luis rico,0,0.0009604448,0,True
+2021-07-03,el arbolito,el gran combo de puerto rico,0,1.8896904e-05,0,True
+2021-07-03,if you listen - remasterisé en 2016,françoise hardy,0,8.1264375e-07,0,True
+2021-07-03,ja sina,ines,0,0.0031469648,0,True
+2021-07-03,kata pujangga,rhoma irama,0,7.9534635e-05,0,True
+2021-07-03,la ligne droite,georges moustaki,0,1.8726284e-06,0,True
+2021-07-03,les pâques a new york,blaise cendrars,0,6.624537e-17,0,True
+2021-07-03,lásko má,hana hegerova,0,5.639313e-05,0,True
+2021-07-03,mecnunum leylamı gördün mü,tülay german,0,6.0957115e-07,0,True
+2021-07-03,red lenses,rush,0,0.00055119523,0,True
+2021-07-03,titkos üzenet,tnt,0,2.9938387e-06,0,True
+2021-07-03,4 Da Gang,"[""42 Dugg"",""Roddy Ricch""]",1,0.9848335,1,True
+2021-07-03,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.99563825,1,True
+2021-07-03,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.9965902,1,True
+2021-07-03,Best Friend,"[""Saweetie"",""Doja Cat""]",1,0.9991456,1,True
+2021-07-03,Calling My Phone,"[""Lil Tjay"",""6LACK""]",1,0.98378533,1,True
+2021-07-03,Drivers License,"[""Olivia Rodrigo""]",1,0.99573785,1,True
+2021-07-03,Gone,"[""Dierks Bentley""]",1,0.9974362,1,True
+2021-07-03,Heartbreak Anniversary,"[""Giveon""]",1,0.97426474,1,True
+2021-07-03,Pick Up Your Feelings,"[""Jazmine Sullivan""]",1,0.9873341,1,True
+2021-07-03,Settling Down,"[""Miranda Lambert""]",1,0.98799175,1,True
+2021-07-03,Time Today,"[""Moneybagg Yo""]",1,0.8946481,1,True
+2021-07-03,We're Good,"[""Dua Lipa""]",1,0.9984095,1,True
+2021-07-03,What's Next,"[""Drake""]",1,0.9994495,1,True
+2021-07-10,becoming insane,infected mushroom,0,1.577121e-07,0,True
+2021-07-10,fast car - acoustic version,kelly rida,0,3.35065e-06,0,True
+2021-07-10,give it up,steve miller band,0,4.669167e-05,0,True
+2021-07-10,honey chile,fats domino,0,2.1416902e-06,0,True
+2021-07-10,iltasatu,aino akti,0,2.3272667e-06,0,True
+2021-07-10,love is the way,connect-r,0,7.459249e-05,0,True
+2021-07-10,only takes love,sizzla,0,0.01723331,0,True
+2021-07-10,papa was a poor man,jack jersey,0,3.3856475e-05,0,True
+2021-07-10,ruido blanco para bebés,ruido blanco,0,3.8776748e-06,0,True
+2021-07-10,spoonful,willie dixon,0,1.6837548e-12,0,True
+2021-07-10,zum zum zum,siw malmkvist,0,0.0005468412,0,True
+2021-07-10,4 Da Gang,"[""42 Dugg"",""Roddy Ricch""]",1,0.9829166,1,True
+2021-07-10,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.9952066,1,True
+2021-07-10,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.996148,1,True
+2021-07-10,Best Friend,"[""Saweetie"",""Doja Cat""]",1,0.9990582,1,True
+2021-07-10,Calling My Phone,"[""Lil Tjay"",""6LACK""]",1,0.98186535,1,True
+2021-07-10,Drivers License,"[""Olivia Rodrigo""]",1,0.99520785,1,True
+2021-07-10,Gone,"[""Dierks Bentley""]",1,0.9971516,1,True
+2021-07-10,Heartbreak Anniversary,"[""Giveon""]",1,0.9731575,1,True
+2021-07-10,Settling Down,"[""Miranda Lambert""]",1,0.9869554,1,True
+2021-07-17,bajo tus alas,marcos yaroide,0,0.17684735,1,False
+2021-07-17,desorden,izal,0,0.15190652,1,False
+2021-07-17,eyes wide shut,jls,0,0.02639305,0,True
+2021-07-17,i walk away,split enz,0,9.239616e-06,0,True
+2021-07-17,iko iko,cyndi lauper,0,5.786355e-06,0,True
+2021-07-17,kolmas pyörä vaan,iiro rantala,0,0.72771597,1,False
+2021-07-17,les remparts de varsovie,jacques brel,0,0.00033009265,0,True
+2021-07-17,llega la cigueña,sonora palacios,0,1.5866871e-07,0,True
+2021-07-17,loco,andrés calamaro,0,0.0004900105,0,True
+2021-07-17,na mee vo de globi rettet en fuessballschiedsrichter,globi,0,0.00011336068,0,True
+2021-07-17,pidä kii,muska,0,6.446706e-06,0,True
+2021-07-17,step,kara,0,0.008011198,0,True
+2021-07-17,tyl,kakie,0,0.0007370563,0,True
+2021-07-17,4 Da Gang,"[""42 Dugg"",""Roddy Ricch""]",1,0.9800688,1,True
+2021-07-17,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.9942901,1,True
+2021-07-17,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.99530363,1,True
+2021-07-17,Best Friend,"[""Saweetie"",""Doja Cat""]",1,0.9988645,1,True
+2021-07-17,Calling My Phone,"[""Lil Tjay"",""6LACK""]",1,0.97798944,1,True
+2021-07-17,Drivers License,"[""Olivia Rodrigo""]",1,0.9944148,1,True
+2021-07-17,Gone,"[""Dierks Bentley""]",1,0.9967156,1,True
+2021-07-17,Heartbreak Anniversary,"[""Giveon""]",1,0.9686949,1,True
+2021-07-17,Settling Down,"[""Miranda Lambert""]",1,0.9852479,1,True
+2021-07-17,What's Next,"[""Drake""]",1,0.9992529,1,True
+2021-07-24,ciudad baigón,indio solari y los fundamentalistas del aire acondicionado,0,0.00018042084,0,True
+2021-07-24,kunja sajaye delo,k.c.dey,0,1.832896e-09,0,True
+2021-07-24,malambo no. 1,yma sumac,0,7.291914e-09,0,True
+2021-07-24,moody speaks,dizzy gillespie,0,1.0856336e-05,0,True
+2021-07-24,nagmamahal,renz verano,0,0.0023858005,0,True
+2021-07-24,no carnaval,elza soares,0,6.0075564e-07,0,True
+2021-07-24,sepanjang jalan kenangan,tetty kadi,0,0.5262244,1,False
+2021-07-24,smoke you out,one slack mind,0,3.986628e-06,0,True
+2021-07-24,someone who cares,dusty springfield,0,0.00012396669,0,True
+2021-07-24,säkkijärven polkka,leningrad cowboys,0,3.779294e-06,0,True
+2021-07-24,özlem,grup yorum,0,0.0006652635,0,True
+2021-07-24,4 Da Gang,"[""42 Dugg"",""Roddy Ricch""]",1,0.9797287,1,True
+2021-07-24,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.9953248,1,True
+2021-07-24,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.9961364,1,True
+2021-07-24,Best Friend,"[""Saweetie"",""Doja Cat""]",1,0.99904865,1,True
+2021-07-24,Calling My Phone,"[""Lil Tjay"",""6LACK""]",1,0.9830886,1,True
+2021-07-24,Drivers License,"[""Olivia Rodrigo""]",1,0.9957427,1,True
+2021-07-24,Gone,"[""Dierks Bentley""]",1,0.99738985,1,True
+2021-07-24,Heartbreak Anniversary,"[""Giveon""]",1,0.97198415,1,True
+2021-07-24,Levitating,"[""Dua Lipa""]",1,0.8893482,1,True
+2021-07-24,Settling Down,"[""Miranda Lambert""]",1,0.9867441,1,True
+2021-07-31,a new year 2021,intergalactical,0,0.0001033821,0,True
+2021-07-31,brickfield nights,the boys,0,0.0664781,0,True
+2021-07-31,desde el oeste,almafuerte,0,0.2852631,1,False
+2021-07-31,du bist nicht allein,james last,0,5.1201564e-06,0,True
+2021-07-31,en courant,laurence jalbert,0,0.0028181367,0,True
+2021-07-31,everlasting love,u2,0,0.0025881582,0,True
+2021-07-31,fado boémio e vadio,piedade fernandes,0,0.0053314343,0,True
+2021-07-31,la storia di serafino,adriano celentano,0,6.0277957e-06,0,True
+2021-07-31,still,jupiter jones,0,0.91470706,1,False
+2021-07-31,sweat loaf,butthole surfers,0,2.8214029e-06,0,True
+2021-07-31,szczerze,taco hemingway,0,0.00013752212,0,True
+2021-07-31,thapelo,sammy malete,0,2.1513872e-06,0,True
+2021-07-31,warsaw ragtime no. 1,warsaw stompers,0,2.3558384e-09,0,True
+2021-07-31,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.9959322,1,True
+2021-07-31,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.996193,1,True
+2021-07-31,Best Friend,"[""Saweetie"",""Doja Cat""]",1,0.9991535,1,True
+2021-07-31,Drivers License,"[""Olivia Rodrigo""]",1,0.9959517,1,True
+2021-07-31,Gone,"[""Dierks Bentley""]",1,0.99761945,1,True
+2021-07-31,Heartbreak Anniversary,"[""Giveon""]",1,0.9714161,1,True
+2021-07-31,Levitating,"[""Dua Lipa""]",1,0.88552713,1,True
+2021-07-31,Love Again,"[""Dua Lipa""]",1,0.99548435,1,True
+2021-07-31,Settling Down,"[""Miranda Lambert""]",1,0.98788196,1,True
+2021-08-07,chill factor,richard elliot,0,0.00020439597,0,True
+2021-08-07,hlubina,znouzectnost,0,2.4902669e-05,0,True
+2021-08-07,la quiero a morir,sergio vargas,0,3.9937354e-06,0,True
+2021-08-07,me voy,santaferia,0,0.00712094,0,True
+2021-08-07,mojave,antônio carlos jobim,0,2.7040428e-06,0,True
+2021-08-07,mónica,rio,0,0.0006663917,0,True
+2021-08-07,projdu zdi,kabát,0,2.5687555e-06,0,True
+2021-08-07,quiero estar solo,jeros,0,0.0026583606,0,True
+2021-08-07,sahici,deniz seki,0,6.7150273e-07,0,True
+2021-08-07,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.9952316,1,True
+2021-08-07,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.99566406,1,True
+2021-08-07,Best Friend,"[""Saweetie"",""Doja Cat""]",1,0.9989857,1,True
+2021-08-07,Gone,"[""Dierks Bentley""]",1,0.9971264,1,True
+2021-08-07,Heartbreak Anniversary,"[""Giveon""]",1,0.9619662,1,True
+2021-08-07,Levitating,"[""Dua Lipa""]",1,0.85635185,1,True
+2021-08-07,Love Again,"[""Dua Lipa""]",1,0.99453455,1,True
+2021-08-07,Settling Down,"[""Miranda Lambert""]",1,0.98636574,1,True
+2021-08-14,our legacy - official thunderdome 2017 anthem,guerrillas,0,0.0020493746,0,True
+2021-08-14,pikku myyn haaveet,elina salo,0,0.06282069,0,True
+2021-08-14,red cross store blues,lead belly,0,4.980249e-08,0,True
+2021-08-14,rua augusta,emicida,0,0.0059179435,0,True
+2021-08-14,somos caminantes,el comunero de los andes,0,4.8307992e-08,0,True
+2021-08-14,voy a prometerme,la cumana,0,8.71227e-07,0,True
+2021-08-14,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.9954612,1,True
+2021-08-14,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.9964171,1,True
+2021-08-14,Best Friend,"[""Saweetie"",""Doja Cat""]",1,0.9990211,1,True
+2021-08-14,Heartbreak Anniversary,"[""Giveon""]",1,0.95731467,1,True
+2021-08-14,Levitating,"[""Dua Lipa""]",1,0.85288286,1,True
+2021-08-14,Love Again,"[""Dua Lipa""]",1,0.9956718,1,True
+2021-08-21,beibi on ylpee,popeda,0,0.00072589895,0,True
+2021-08-21,breathe - karaoke version in the style of michelle branch,charttraxx karaoke,0,0.0001783043,0,True
+2021-08-21,budeme to stále my...,i.m.t. smile,0,0.0003224086,0,True
+2021-08-21,cat prance,toini & the tomcats,0,1.9195966e-05,0,True
+2021-08-21,catfish blues,canned heat,0,2.459776e-07,0,True
+2021-08-21,chance to find me,toini & the tomcats,0,0.0028004078,0,True
+2021-08-21,denne gang,michael teschl,0,0.011245644,0,True
+2021-08-21,el arrepentido - unplugged version,los tres,0,2.6439898e-07,0,True
+2021-08-21,faith,yuna ito,0,0.0032374477,0,True
+2021-08-21,goodbye to yesterday,elina born,0,0.00011238897,0,True
+2021-08-21,hei! você,dom salvador & abolição,0,0.009566729,0,True
+2021-08-21,kinder an die macht - remastered 2016,herbert grönemeyer,0,1.3686595e-06,0,True
+2021-08-21,krummi krúnkar úti,skoppa og skrítla,0,0.53174055,1,False
+2021-08-21,leichtes gepäck,silbermond,0,0.05815138,0,True
+2021-08-21,long way home,atb,0,2.4206239e-08,0,True
+2021-08-21,move away jimmy blue,del amitri,0,0.014309954,0,True
+2021-08-21,petit escargot,comptines tv,0,7.826209e-05,0,True
+2021-08-21,sudamérica o el regreso a la aurora,arco iris,0,8.020304e-06,0,True
+2021-08-21,te imagino,alberto stylee,0,0.0001479936,0,True
+2021-08-21,this endless night,neil sedaka,0,1.1765011e-06,0,True
+2021-08-21,volantes pa la falda mi gitana,melendi,0,0.017467165,0,True
+2021-08-21,yama nadaet,om kalthom,0,1.3312328e-09,0,True
+2021-08-21,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.9962729,1,True
+2021-08-21,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.99691045,1,True
+2021-08-21,Heartbreak Anniversary,"[""Giveon""]",1,0.9681533,1,True
+2021-08-21,Levitating,"[""Dua Lipa""]",1,0.8745048,1,True
+2021-08-21,Love Again,"[""Dua Lipa""]",1,0.9963091,1,True
+2021-08-28,era una vita che ti stavo aspettando,francesco renga,0,0.38611612,1,False
+2021-08-28,filth pig,ministry,0,0.000103390186,0,True
+2021-08-28,gift,hov1,0,0.965892,1,False
+2021-08-28,hard-headed woman,john lee hooker,0,0.00031298178,0,True
+2021-08-28,i wish you love,jack jones,0,1.3107692e-05,0,True
+2021-08-28,johnny comes down to hilo,sam eskin,0,1.4458461e-06,0,True
+2021-08-28,meira dót,buttercup,0,0.002558693,0,True
+2021-08-28,mevlana jalaluddin rumi - dream of shams,mercan dede,0,9.491122e-11,0,True
+2021-08-28,midnight lovers,passion,0,1.1587138e-05,0,True
+2021-08-28,portrait of louise,bee gees,0,0.00082274294,0,True
+2021-08-28,rus,lill lindfors,0,1.868652e-06,0,True
+2021-08-28,show you,zian,0,0.046508163,0,True
+2021-08-28,sta ipa ola - live,miltos pashalidis,0,5.7526275e-05,0,True
+2021-08-28,the kiss,trevor jones,0,3.4778302e-06,0,True
+2021-08-28,vida,maxi4000,0,6.6582536e-05,0,True
+2021-08-28,why do you keep me waiting,bread,0,2.2192983e-06,0,True
+2021-08-28,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.9966235,1,True
+2021-08-28,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.99722373,1,True
+2021-08-28,Heartbreak Anniversary,"[""Giveon""]",1,0.96927005,1,True
+2021-08-28,Levitating,"[""Dua Lipa""]",1,0.88225365,1,True
+2021-08-28,Love Again,"[""Dua Lipa""]",1,0.99670005,1,True
+2021-09-04,cumbia del indio,chicos de barrio,0,2.6485148e-07,0,True
+2021-09-04,estoy enamorado,ladron,0,0.00049001514,0,True
+2021-09-04,i have a right,sonata arctica,0,1.6301664e-07,0,True
+2021-09-04,kom nog even niet naar hier,acda en de munnik,0,0.74735343,1,False
+2021-09-04,love makes the world go round,percy sledge,0,1.3677721e-06,0,True
+2021-09-04,manhattan skyline,david shire,0,5.5336287e-08,0,True
+2021-09-04,pali tha klapso,marinella,0,5.7327154e-05,0,True
+2021-09-04,seek up - live,dave matthews band,0,3.5359875e-08,0,True
+2021-09-04,when we dig for gold in the usa,amanda jenssen,0,0.054969233,0,True
+2021-09-04,Astronaut In The Ocean,"[""Masked Wolf""]",1,0.9965955,1,True
+2021-09-04,Beautiful Mistakes,"[""Maroon 5"",""Megan Thee Stallion""]",1,0.99706954,1,True
+2021-09-04,Heartbreak Anniversary,"[""Giveon""]",1,0.97086555,1,True
+2021-09-04,Levitating,"[""Dua Lipa""]",1,0.88137937,1,True
+2021-09-04,Love Again,"[""Dua Lipa""]",1,0.9966049,1,True
+2021-09-11,dar dar ki thokren hain,shamshad begum,0,3.388845e-08,0,True
+2021-09-11,halløjsenbær,alberte winding,0,0.00201495,0,True
+2021-09-11,in the eye of the sun,the doors,0,6.3062916e-10,0,True
+2021-09-11,pájaro campana,los indios tabajaras,0,5.132051e-08,0,True
+2021-09-11,she wandered through the garden fence,procol harum,0,3.4413172e-06,0,True
+2021-09-11,téged nem,péterfy bori & love band,0,0.00020547734,0,True
+2021-09-11,vivere senza te,nek,0,2.0723084e-05,0,True
+2021-09-11,Heartbreak Anniversary,"[""Giveon""]",1,0.9589149,1,True
+2021-09-11,Levitating,"[""Dua Lipa""]",1,0.84584874,1,True
+2021-09-11,Love Again,"[""Dua Lipa""]",1,0.99325347,1,True
+2021-09-18,angel eyes,ace of base,0,0.0042005097,0,True
+2021-09-18,favela sinistra,trilha sonora do gueto,0,0.000416728,0,True
+2021-09-18,gundah,hujan,0,4.284133e-06,0,True
+2021-09-18,honeycomb,jimmie rodgers,0,1.3883874e-05,0,True
+2021-09-18,hot stuff,memphis minnie,0,1.3131898e-11,0,True
+2021-09-18,orale,gilli,0,0.43919232,1,False
+2021-09-18,present,gen hoshino,0,2.1944587e-07,0,True
+2021-09-18,reginella campagnola,poly e seu conjunto,0,2.868568e-06,0,True
+2021-09-18,rád talált,hiperkarma,0,4.761281e-05,0,True
+2021-09-18,sólarsamba,góss,0,0.029157605,0,True
+2021-09-18,tout seul,les colocs,0,1.0304848e-07,0,True
+2021-09-18,í hjarta mér,ego,0,0.00019617274,0,True
+2021-09-18,Levitating,"[""Dua Lipa""]",1,0.7694756,1,True
+2021-09-18,Love Again,"[""Dua Lipa""]",1,0.99162054,1,True
+2021-09-25,bossa antigua,paul desmond,0,1.8077642e-11,0,True
+2021-09-25,carito,carlos vives,0,7.943812e-08,0,True
+2021-09-25,carmencita,amaiia rodriguez,0,7.3948904e-08,0,True
+2021-09-25,com cristo é vencer,cassiane,0,0.37997124,1,False
+2021-09-25,el río no es solo eso,pablo estramín,0,9.117496e-08,0,True
+2021-09-25,ergilet güzeli bağlar bozuyor,münir nurettin selçuk,0,2.238266e-09,0,True
+2021-09-25,fındık kurdu,nurhan damcıoğlu,0,1.5212612e-07,0,True
+2021-09-25,just a boy,ryan mcgraw,0,0.31620148,1,False
+2021-09-25,just to cry,keef hartley band,0,5.288944e-08,0,True
+2021-09-25,luna,verdena,0,6.553328e-05,0,True
+2021-09-25,omri kellou,wael kfoury,0,0.00044008723,0,True
+2021-09-25,to whom it may concern,rodríguez,0,0.0003186548,0,True
+2021-09-25,yol,barış manço,0,0.003891108,0,True
+2021-09-25,Levitating,"[""Dua Lipa""]",1,0.80738074,1,True
+2021-09-25,Love Again,"[""Dua Lipa""]",1,0.992146,1,True
+2021-10-02,dom som försvann,kent,0,2.873787e-07,0,True
+2021-10-02,funky pretty - remastered 2000,the beach boys,0,3.2167276e-07,0,True
+2021-10-02,glory,hillsong worship,0,9.346354e-06,0,True
+2021-10-02,i just wanted you to know,mark chesnutt,0,0.36897588,1,False
+2021-10-02,lamento,duke pearson,0,1.4204046e-07,0,True
+2021-10-02,military strongmen,jebediah,0,0.00041332984,0,True
+2021-10-02,nkhauhele le nna,oleseng,0,0.0018292712,0,True
+2021-10-02,one way ticket,the darkness,0,1.6218264e-06,0,True
+2021-10-02,se voce quiser,elis regina,0,9.175022e-10,0,True
+2021-10-02,sinta,aegis,0,0.13940446,1,False
+2021-10-02,street knock,swizz beatz & a$ap rocky,0,0.00061531144,0,True
+2021-10-02,the stardust memory,kyoko koizumi,0,0.0014526562,0,True
+2021-10-02,yaz gazeteci yaz,selda bağcan,0,0.00024980944,0,True
+2021-10-02,Levitating,"[""Dua Lipa""]",1,0.83515286,1,True
+2021-10-02,Love Again,"[""Dua Lipa""]",1,0.9916315,1,True
+2021-10-09,bashful baby blues,freddie slack and his orchestra,0,1.2892811e-07,0,True
+2021-10-09,brigas de amor,jose roberto,0,5.9259698e-08,0,True
+2021-10-09,chaos,lacrim,0,0.001108999,0,True
+2021-10-09,garanterat individuell,hoola bandoola band,0,4.2869244e-05,0,True
+2021-10-09,hallelujah,red garland quintet,0,4.040719e-09,0,True
+2021-10-09,koparma gülleri,ferdi tayfur,0,1.1922915e-06,0,True
+2021-10-09,lass die sonne in dein herz,wind,0,0.00018799558,0,True
+2021-10-09,maestra,adrian valdez,0,0.00021293503,0,True
+2021-10-09,not a damn thing changed,lukas graham,0,0.1472056,1,False
+2021-10-09,o fogo nunca dorme,alessandro vilas boas,0,8.5904256e-05,0,True
+2021-10-09,regeton 8,dj audrey,0,0.004761254,0,True
+2021-10-09,romance,el combo de las estrellas,0,7.42163e-05,0,True
+2021-10-09,see see rider,ernestine anderson,0,1.5533705e-07,0,True
+2021-10-09,teď ještě ne,hana hegerova,0,4.6494395e-05,0,True
+2021-10-09,ud i natten,vagn og vagabonderne,0,5.642976e-06,0,True
+2021-10-09,visto che mi vuoi lasciare,rino gaetano,0,1.6617665e-06,0,True
+2021-10-09,yo quiero mas de ti,gadiel espinoza,0,0.015056759,0,True
+2021-10-09,Levitating,"[""Dua Lipa""]",1,0.8410945,1,True
+2021-10-09,Love Again,"[""Dua Lipa""]",1,0.99300146,1,True
+2021-10-09,Toxic Punk,"[""YoungBoy Never Broke Again""]",1,0.9991124,1,True
+2021-10-16,ajomies,topi sorsakoski & agents,0,0.00012134873,0,True
+2021-10-16,ayırma bizi - düvaz i̇mam,dertli divani,0,0.00023683209,0,True
+2021-10-16,clock the dough - 2 step mix,donna dee,0,1.9768986e-09,0,True
+2021-10-16,colores,viernes verde,0,0.00024420486,0,True
+2021-10-16,ennallunndadaviha,chittoor v. nagaiah,0,4.0225787e-09,0,True
+2021-10-16,felizes os dois,peste & sida,0,0.013079946,0,True
+2021-10-16,garnet moon,hitomi shimatani,0,4.2738207e-06,0,True
+2021-10-16,kažu,dubioza kolektiv,0,1.622599e-07,0,True
+2021-10-16,snati og óli,sigga beinteins,0,7.225007e-05,0,True
+2021-10-16,the money - live 2016,the busters,0,2.8384315e-05,0,True
+2021-10-16,untukmu ibu,exists,0,0.0012634571,0,True
+2021-10-16,Levitating,"[""Dua Lipa""]",1,0.8401621,1,True
+2021-10-16,Love Again,"[""Dua Lipa""]",1,0.99429315,1,True
+2021-10-23,barter,kuroyume,0,3.7054967e-06,0,True
+2021-10-23,burası muştur,neşet ertaş,0,0.0033856118,0,True
+2021-10-23,dalamnya kasihmu bapa - live,true worshippers,0,5.74452e-05,0,True
+2021-10-23,dans ma rue - high for the chronic !,doc gynéco,0,0.00034592612,0,True
+2021-10-23,entertainer,lenka filipova,0,1.3194031e-08,0,True
+2021-10-23,gamzedeyim deva bulmam,müzeyyen senar,0,3.2913772e-07,0,True
+2021-10-23,heartburn,wafia,0,0.43776813,1,False
+2021-10-23,indiana march,christian maucery,0,8.157496e-09,0,True
+2021-10-23,just you just me,helen merrill,0,7.294052e-07,0,True
+2021-10-23,mercy in you,depeche mode,0,2.0061084e-09,0,True
+2021-10-23,misterioso manantial,alameda,0,2.0111465e-05,0,True
+2021-10-23,on broadway - 2019 - remaster,the dave clark five,0,3.044633e-07,0,True
+2021-10-23,pienso en ti,thalia,0,0.0024981452,0,True
+2021-10-23,secret agent man,devo,0,2.0461003e-07,0,True
+2021-10-23,straighten out - 1996 remaster,the stranglers,0,1.5355938e-05,0,True
+2021-10-23,Levitating,"[""Dua Lipa""]",1,0.8069577,1,True
+2021-10-23,Love Again,"[""Dua Lipa""]",1,0.9941247,1,True
+2021-10-30,15 ára á föstu,á móti sól,0,3.5872565e-06,0,True
+2021-10-30,burns like a buzzsaw blade,annihilator,0,0.020515898,0,True
+2021-10-30,con queste facce qui,ligabue,0,3.4157746e-09,0,True
+2021-10-30,evangelina,jonathan edwards,0,1.23069385e-05,0,True
+2021-10-30,give up,low roar,0,1.1011889e-06,0,True
+2021-10-30,mi cafetal,hermanas lima,0,2.9331817e-08,0,True
+2021-10-30,minha prece,milionário & josé rico,0,0.00024721614,0,True
+2021-10-30,monina,mon rivera,0,1.6816301e-08,0,True
+2021-10-30,naboen har party,ingenting,0,2.8931543e-05,0,True
+2021-10-30,sandalar,brunaliðið,0,0.0020499388,0,True
+2021-10-30,tie yuh,mavado,0,6.2511285e-06,0,True
+2021-10-30,Levitating,"[""Dua Lipa""]",1,0.8024784,1,True
+2021-10-30,Love Again,"[""Dua Lipa""]",1,0.9943701,1,True
+2021-11-06,aai ghadi suhani,noor jehan,0,3.3392776e-13,0,True
+2021-11-06,geordie - extended,gabry ponte,0,4.8121404e-07,0,True
+2021-11-06,hapus aku,nidji,0,0.0005615261,0,True
+2021-11-06,klara klara,þrjú á palli,0,0.00039198218,0,True
+2021-11-06,mi niña,los angeles negros,0,0.0007558702,0,True
+2021-11-06,se não acordar amanhã,piruka,0,0.00021333437,0,True
+2021-11-06,shine on me,lead belly,0,1.11764024e-07,0,True
+2021-11-06,si ya te olvide,luciana,0,0.007694165,0,True
+2021-11-06,siendo uno mismo,manuel carrasco,0,0.00011900986,0,True
+2021-11-06,sin problemas,los llaneros de la frontera,0,2.1442269e-05,0,True
+2021-11-06,song of the islands,bing crosby,0,1.0212844e-07,0,True
+2021-11-06,the pearls - 1995 remastered,jelly roll morton & his red hot peppers,0,2.161756e-13,0,True
+2021-11-06,thorn in my side,the crash,0,0.044800144,0,True
+2021-11-06,tired of missing you,isac elliot,0,0.003996486,0,True
+2021-11-06,tres deseos,decai,0,0.0010452574,0,True
+2021-11-06,Levitating,"[""Dua Lipa""]",1,0.8259682,1,True
+2021-11-06,Love Again,"[""Dua Lipa""]",1,0.9950661,1,True
